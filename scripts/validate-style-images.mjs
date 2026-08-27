@@ -39,5 +39,5 @@ const duplicates = [...hashes.values()].filter((ids) => ids.length > 1)
 if (duplicates.length) console.warn(`Duplicate image groups: ${duplicates.map((ids) => ids.join("/")).join(", ")}`)
 
 console.log(
-  `Validated 433 images · ${sourced} sourced · ${generated} palette studies · ${(totalBytes / 1024 / 1024).toFixed(1)} MiB`,
+  `Validated 433 images · ${sourced} sourced · ${generated} original/generated assets · ${(totalBytes / 1024 / 1024).toFixed(1)} MiB`,
 )

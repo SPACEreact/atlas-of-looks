@@ -355,7 +355,7 @@ function Card({ style, saved, onOpen }: { style: Style; saved: boolean; onOpen: 
 }
 
 function ImageCredit({ image }: { image: StyleImage }) {
-  if (image.kind === "generated") return <p className="image-credit">Atlas palette study</p>
+  if (image.kind === "generated") return <p className="image-credit">Original Atlas image</p>
   return (
     <p className="image-credit">
       Image: <a href={image.sourceUrl} target="_blank" rel="noreferrer">{image.title}</a>

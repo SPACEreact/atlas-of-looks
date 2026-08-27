@@ -8,6 +8,7 @@
     "prebuild": "npm run images:check",
     "build": "tsc -b && vite build",
     "images:check": "node scripts/validate-style-images.mjs",
+    "images:sync": "node scripts/sync-style-images.mjs",
     "images:dedupe": "node scripts/fetch-style-images.mjs --dedupe",
     "images:refresh": "node scripts/fetch-style-images.mjs",
     "images:optimize": "node scripts/fetch-style-images.mjs --generated-only",

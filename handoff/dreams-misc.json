@@ -1,0 +1,505 @@
+{
+  "assignment": "dreams-misc",
+  "scope": {
+    "realm": "dreams",
+    "source_file": "src/data/dreams.ts",
+    "style_count": 48,
+    "note": "All styles in this realm are original invented visual systems, so no canonical historical source exists. Each should receive a purpose-built image rather than a literal keyword-search photograph."
+  },
+  "decision_counts": {
+    "current_ok": 0,
+    "replace": 0,
+    "generate": 48
+  },
+  "audit_method": {
+    "visual_review": "Every current asset was reviewed in three 4-by-4 contact sheets at original sheet resolution.",
+    "contact_sheets": [
+      "work/curation/dreams-contact-1.jpg",
+      "work/curation/dreams-contact-2.jpg",
+      "work/curation/dreams-contact-3.jpg"
+    ],
+    "generation_format": "Landscape 3:2 gallery thumbnail; subject-neutral visual specimen; edge-to-edge artwork; no border, caption, text, lettering, logo, or watermark."
+  },
+  "items": [
+    {
+      "id": "wet-glass-city",
+      "name": "Wet-Glass Childhood City",
+      "action": "generate",
+      "current_asset": { "file": "wet-glass-city.png", "kind": "generated" },
+      "exact_source": null,
+      "prompt": "Create an original Wet-Glass Childhood City visual specimen: a metropolis assembled from stacked, warped windowpanes seen through heavy condensation, with small childhood bedrooms glowing inside rooms-behind-rooms, toy blocks enlarged into towers, beads of water bending the architecture, analog film grain, bioluminescent blue-green fog, and tender memory-stained rose and cream light. Keep it intimate and wistful, never cyberpunk or horrific. Palette: #6a8cba, #c45a6a, #d8c8b0, #1a1a16, #3aa0a8. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no lettering, no logo, no watermark.",
+      "rationale": "The current asset is a generic concentric palette pattern and depicts none of the condensation, nested bedrooms, toy-scale architecture, or analog memory light that defines the style.",
+      "confidence": 1.0
+    },
+    {
+      "id": "fever-map",
+      "name": "Fever Map",
+      "action": "generate",
+      "current_asset": { "file": "fever-map.png", "kind": "generated" },
+      "exact_source": null,
+      "prompt": "Create an original Fever Map visual specimen: a tactile parchment world map behaving like warm skin, continents subtly swelling with a pulse, borders glowing and receding like capillaries, heat shimmer lifting from cinnabar and burnt-orange pigments, droplets of moisture on the paper, and an oppressive childhood-sickroom light that feels too bright and too close. It must feel hand-painted, feverish, and alive rather than like a clean atlas or cold digital interface. Palette: #c45a28, #c4122f, #d4b45a, #1a1a16, #6a2a2a. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no readable labels, no text, no logo, no watermark.",
+      "rationale": "The current diagonal palette study has no cartography, sweating paper, pulsing borders, or heat-shimmer atmosphere.",
+      "confidence": 1.0
+    },
+    {
+      "id": "hypnagogic-hallway",
+      "name": "Hypnagogic Hallway",
+      "action": "generate",
+      "current_asset": { "file": "hypnagogic-hallway.png", "kind": "generated" },
+      "exact_source": null,
+      "prompt": "Create an original Hypnagogic Hallway visual specimen: a quiet domestic corridor at the instant before sleep, its one-point perspective gradually failing, doorframes softening and leaning as if they forget their rooms, carpet fibers becoming lavender fog, and a distant threshold emitting muted amber light. Use velvety shadows, analog grain, mauve and warm-ivory surfaces, and subtle spatial impossibility; no yellow-office Backrooms cliche, jump scare, or gore. Palette: #6a5a7a, #c4a46a, #d8c8b0, #1a1a16, #8a7a9a. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current abstract loop-and-ribbon placeholder does not communicate a hallway, failing perspective, melting thresholds, or sleep-state atmosphere.",
+      "confidence": 1.0
+    },
+    {
+      "id": "scale-inverted",
+      "name": "Scale-Inverted Rooms",
+      "action": "generate",
+      "current_asset": { "file": "scale-inverted.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Scale-Inverted Rooms visual specimen from a teaspoon-high viewpoint crossing a familiar living room transformed into a vast landscape: chair legs rise like cliff pillars, a rug becomes rolling terrain, dust motes move like weather, a dropped button is a boulder, and a table lamp burns like a low sun with long raking shadows. The domestic space should inspire architectural awe and uncanny tenderness, not look like a toy photograph or insect horror. Palette: #c4a46a, #6a5a44, #d8c8b0, #1a1a16, #c45a6a. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current aerial photograph of a waterside building is unrelated to impossible domestic scale and furniture-as-landscape.",
+      "confidence": 1.0
+    },
+    {
+      "id": "memory-stain",
+      "name": "Memory-Stained Analog",
+      "action": "generate",
+      "current_asset": { "file": "memory-stain.png", "kind": "generated" },
+      "exact_source": null,
+      "prompt": "Create an original Memory-Stained Analog visual specimen as a half-remembered 1990s domestic snapshot: an anonymous family-like gathering in a modest room, faces softened and fractionally misregistered by time rather than horror, chemical foxing blooming across the emulsion like bruises, faded rose, tobacco-gold, dusty blue, and cream, with light leaks, grain, fingerprints, and worn print edges visible inside the image. Make the errors tender and emotionally legible, never a face-swap gag or clean digital filter. Palette: #c4a46a, #c45a6a, #6a7a8c, #1a1a16, #d8c8b0. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no readable date stamp, no text, no logo, no watermark.",
+      "rationale": "The current generic wave pattern uses the palette but lacks the essential analog photograph, emotional chemical damage, and tenderly unreliable memory.",
+      "confidence": 1.0
+    },
+    {
+      "id": "bone-cathedral",
+      "name": "Bone Cathedral",
+      "action": "generate",
+      "current_asset": { "file": "bone-cathedral.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Bone Cathedral visual specimen: a vast sacred nave grown from smooth ivory ribs and vertebral buttresses, delicate ossuary tracery forming rose windows, restrained baroque gold leaf at joints and altars, hundreds of small candles, and a deep black-and-oxblood hush. Bone must read as architectural calcium, polished and reverent, with no flesh, gore, cute skeletons, or sexual-industrial biomechanical imagery. Palette: #d8c8b0, #c9a227, #1a1a16, #8b1e1e, #c4a46a. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current organic-looking facade is only loosely suggestive; it is a literal building photograph and does not establish a cathedral grown from bone, ossuary structure, candlelight, and sacred hush.",
+      "confidence": 0.98
+    },
+    {
+      "id": "soft-machine-garden",
+      "name": "Soft-Machine Garden",
+      "action": "generate",
+      "current_asset": { "file": "soft-machine-garden.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Soft-Machine Garden visual specimen inside a dusk greenhouse where mechanisms have grown rather than been assembled: velvet-covered bellows breathe among leaves, petal-shaped gears open like flowers, mossy flywheels turn slowly, tendrils thread through quiet engines, and diffuse glasshouse light catches muted green, rose, antique gold, cream, and near-black surfaces. The machinery should feel botanical, tactile, and at rest, with no hard chrome, steampunk brass clutter, or biomechanical horror. Palette: #5a8c6a, #c45a6a, #c9a227, #1a1a16, #d8c8b0. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current creek landscape contains neither machinery nor the velvet, petal, gear, and greenhouse synthesis central to the style.",
+      "confidence": 1.0
+    },
+    {
+      "id": "time-bruise",
+      "name": "Time-Bruise",
+      "action": "generate",
+      "current_asset": { "file": "time-bruise.png", "kind": "generated" },
+      "exact_source": null,
+      "prompt": "Create an original Time-Bruise visual specimen: a quiet room whose plaster walls carry overlapping dawn and dusk as wine-purple, dusty-blue, rose, and gold hematomas, while two or three embedded clock-like organs pulse beneath the surface and long shadows from different hours coexist. Render it as an analog double exposure with tactile paint and tender wrongness; time should appear as a wound of duration, not as melting-clock surrealism or a pile of clocks. Palette: #6a2a44, #c4a46a, #3a5a8c, #1a1a16, #c45a6a. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no numerals, no text, no logo, no watermark.",
+      "rationale": "The current palette geometry does not show temporal bruising, clock-organs, or multiple hours occupying one room.",
+      "confidence": 1.0
+    },
+    {
+      "id": "sleep-paralysis-baroque",
+      "name": "Sleep-Paralysis Baroque",
+      "action": "generate",
+      "current_asset": { "file": "sleep-paralysis-baroque.png", "kind": "generated" },
+      "exact_source": null,
+      "prompt": "Create an original Sleep-Paralysis Baroque visual specimen from a low, fixed viewpoint in a lavish but shadow-swallowed bedchamber: a small bed and motionless sleeper beneath gilded cornices, a massive weight of blackness pressing down through the composition like invisible gravity, candlelight grazing crimson fabric, and ambiguous peripheral figures barely implied at the frame edge. Make pressure visible through light and scale, solemn and painterly, with no demon face, found-footage look, gore, or jump scare. Palette: #0e0e0c, #c9a227, #6a2a2a, #d8c8b0, #1a1a16. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current abstract gold-and-black shape has the palette but none of the immobilized bedchamber, baroque staging, peripheral presence, or oppressive compositional weight.",
+      "confidence": 1.0
+    },
+    {
+      "id": "lucid-hud",
+      "name": "Lucid-Game HUD",
+      "action": "generate",
+      "current_asset": { "file": "lucid-hud.png", "kind": "generated" },
+      "exact_source": null,
+      "prompt": "Create an original Lucid-Game HUD visual specimen: a serene dream landscape of grass, water, distant hills, and an oversized sky, where interface logic is physically embedded in nature—a translucent arc becomes a cloud bank, a row of small luminous pips follows the tide, and a floating pause-like pair of monoliths hangs near the horizon. Use faded analog texture and muted blue, rose, gold, ivory, and black; the world should feel lucid and wondrous, not like a real game screenshot or crowded MMO display. All interface marks must be abstract and nonverbal, with no letters or numerals. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current pastel ribbon placeholder contains no natural scene or diegetic interface-as-weather concept.",
+      "confidence": 1.0
+    },
+    {
+      "id": "tooth-house",
+      "name": "Tooth-House",
+      "action": "generate",
+      "current_asset": { "file": "tooth-house.png", "kind": "generated" },
+      "exact_source": null,
+      "prompt": "Create an original Tooth-House visual specimen: a symmetrical domestic interior built from pearlescent enamel and soft pink dentin-like forms, with molar-shaped door arches, gently ridged crown ceilings, floss-thin banisters, powder-blue glass, and warm lamps reflected across glossy ivory surfaces. It should feel like a meticulous childhood myth of a dentist architect—tender, elegant, and subtly uncanny—without mouths, blood, dental procedures, body horror, or cute cartoon teeth. Palette: #f0e4cc, #c45a6a, #d8c8b0, #1a1a16, #6a8cba. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current generic color ribbons do not depict enamel architecture, molar forms, pearlescent rooms, or the tender dental mythology.",
+      "confidence": 1.0
+    },
+    {
+      "id": "ocean-ceiling",
+      "name": "Ocean-Ceiling",
+      "action": "generate",
+      "current_asset": { "file": "ocean-ceiling.png", "kind": "generated" },
+      "exact_source": null,
+      "prompt": "Create an original Ocean-Ceiling visual specimen: an impossible airy salon or colonnade where a perfectly contained ocean forms the ceiling overhead, its rippling underside casting caustics downward while fish drift like chandeliers and a few small anonymous figures walk on transparent air below. Daylight should rise mysteriously from the floor, with deep teal water, warm ivory stone, muted gold, cyan, and near-black accents. Make it serene and spatially convincing, never a generic underwater photograph, drowning scene, or horror image. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current abstract palette study gives no inverted ocean, fish chandeliers, impossible interior, or reversed daylight.",
+      "confidence": 1.0
+    },
+    {
+      "id": "paper-sun",
+      "name": "Paper-Sun",
+      "action": "generate",
+      "current_asset": { "file": "paper-sun.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Paper-Sun visual specimen: a wide landscape and small city folded from one tactile sheet of fibrous paper, with mountain creases, architectural pleats, and a large amber sun constructed as an unfolding circular paper mechanism in the sky. Let light transmit through thin fibers and cast precise crease shadows; sophisticated architectural origami, not a cute children's craft or kawaii diorama. Palette: #d4b45a, #c45a28, #f0e4cc, #1a1a16, #6a8cba. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current black-and-white street photograph is unrelated to folded weather, a paper sun, architectural origami, or transmitted fiber light.",
+      "confidence": 1.0
+    },
+    {
+      "id": "echo-face",
+      "name": "Echo-Face",
+      "action": "generate",
+      "current_asset": { "file": "echo-face.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Echo-Face visual specimen: an anonymous three-quarter portrait in a quiet room, with four softly translucent facial afterimages arriving a fraction of a second late, each expression gently offset like an analog video delay and each silhouette resolving into the next. Use rose, dusty blue, warm ivory, muted gold, and deep black with film grain and slight color registration drift. The multiplicity must feel tender and rhythmic, not a clone scare, deepfake gag, or distorted horror face. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current close-up dog photograph is a random keyword match and communicates none of the delayed portrait, self-afterimage, or analog temporal echo.",
+      "confidence": 1.0
+    },
+    {
+      "id": "submerged-library",
+      "name": "Submerged Library",
+      "action": "generate",
+      "current_asset": { "file": "submerged-library.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Submerged Library visual specimen: a monumental vaulted reading room completely submerged in still green water, long shelves receding into blue darkness, books slowly opening like reefs, drifting paper fibers, and clean shafts of surface light illuminating dust-like plankton. Preserve scholarly order and profound calm; book spines may carry only abstract marks, never legible fake writing. No swimmers in danger, monster, action, or shipwreck horror. Palette: #2f5d5a, #c4a46a, #1a1a16, #6a8cba, #d8c8b0. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current monochrome floating-figure photograph suggests suspension but contains no library, drowned stacks, book reefs, green water, or scholarly calm.",
+      "confidence": 1.0
+    },
+    {
+      "id": "cloud-anatomy",
+      "name": "Cloud Anatomy",
+      "action": "generate",
+      "current_asset": { "file": "cloud-anatomy.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Cloud Anatomy visual specimen: a vast painted sky organized like an eighteenth-century anatomical plate, with cumulus masses opening into elegant nonhuman weather-organs, translucent membranes carrying rain, lightning branching like nerves, and wind chambers shown through delicate engraved contour lines. Blend poetic naturalistic cloud painting with scientific draftsmanship, using dusty blue, warm ivory, blush, muted gold, and deep ink. No gore, exposed human body, cute cartoon clouds, labels, letters, or diagram text. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current photograph of brain-like sculptures is anatomical but not cloud-based and lacks the sky-scale scientific-poetic weather system.",
+      "confidence": 0.99
+    },
+    {
+      "id": "wax-city",
+      "name": "Wax City",
+      "action": "generate",
+      "current_asset": { "file": "wax-city.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Wax City visual specimen at honeyed night: a livable metropolis grown from candle wax, towers formed from grouped tapers and wicks, baroque cornices slowly dripping into streets, warm windows inside translucent walls, and small pools of amber wax reflecting a dark crimson sky. The architecture should be majestic, warm, and gently unstable, with no melting faces, body horror, or generic melting-clock surrealism. Palette: #c9a227, #c45a28, #1a1a16, #d8c8b0, #6a2a2a. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current photograph of a reclining mannequin or period display neither shows a wax-built city nor candle architecture, dripping cornices, wicks, and honeyed night.",
+      "confidence": 1.0
+    },
+    {
+      "id": "unrendered-edges",
+      "name": "Unrendered Edges",
+      "action": "generate",
+      "current_asset": { "file": "unrendered-edges.png", "kind": "generated" },
+      "exact_source": null,
+      "prompt": "Create an original Unrendered Edges visual specimen: a melancholy landscape with a small town and lone path rendered in rich tactile detail only at the center, while resolution progressively runs out toward every edge—textures simplify to matte unshaded planes, then sparse wireframe, then blue-gray fog. The transition should feel like a dreamer's attention fading, not a flashy RGB glitch effect or a polished photoreal render. Palette: #6a7a8c, #c4a46a, #1a1a16, #3a5a8c, #d8c8b0. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current abstract palette design has no resolved center, dissolving level-of-detail, wireframe margin, or engine-dream spatial logic.",
+      "confidence": 1.0
+    },
+    {
+      "id": "recursive-dollhouse",
+      "name": "Recursive Dollhouse",
+      "action": "generate",
+      "current_asset": { "file": "recursive-dollhouse.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Recursive Dollhouse visual specimen as a precise cutaway domestic room containing a smaller complete model of itself, whose window reveals the same room again, repeating at least four clearly legible scales. Repeat one rose lamp, one blue chair, and one gold-framed doorway through every nested level; use orderly symmetrical staging, warm miniature materials, and soft evening light so infinity feels comforting yet uncanny. Avoid a frightening endless hotel or a simple one-level dollhouse. Palette: #c45a6a, #d4b45a, #6a8cba, #f0e4cc, #1a1a16. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current single dollhouse image contains the ingredient but does not show recursive mise-en-abyme, repeated rooms, or the visual logic of a home containing itself.",
+      "confidence": 0.98
+    },
+    {
+      "id": "black-sun-pastoral",
+      "name": "Black-Sun Pastoral",
+      "action": "generate",
+      "current_asset": { "file": "black-sun-pastoral.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Black-Sun Pastoral visual specimen: a broad, quiet green countryside at impossible noon beneath a perfectly matte black sun, with cream linen on a modest picnic, a few distant anonymous figures, grazing field textures, and long eclipse shadows that do not drain the natural colors. Paint it with romantic landscape depth and restrained dream stillness, never as a metal album, apocalyptic fire scene, or gore image. Palette: #2f5d3a, #1a1a16, #d8c8b0, #c4a46a, #6a2a2a. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current night photograph shows a normal bright moon above a railing, not a permanent black noon sun over a fully colored pastoral idyll.",
+      "confidence": 1.0
+    },
+    {
+      "id": "velvet-static",
+      "name": "Velvet Static",
+      "action": "generate",
+      "current_asset": { "file": "velvet-static.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Velvet Static visual specimen: a cozy 1990s living room at night where analog television snow has become tactile upholstery—an armchair and sofa covered in plush monochrome noise, curtains dissolving into soft scanlines, a small CRT casting dusty blue and rose phosphor bloom, and grain drifting through the room like weather. Make the static feel touchable and comforting, not a performance photo, clean digital effect, threatening screen, or horror apparition. Palette: #6a6a7a, #c45a6a, #1a1a16, #d8c8b0, #3a5a8c. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current brightly lit equipment/performance photograph has neither a living room nor static-as-velvet material, CRT weather, or domestic calm.",
+      "confidence": 1.0
+    },
+    {
+      "id": "milk-light",
+      "name": "Milk-Light",
+      "action": "generate",
+      "current_asset": { "file": "milk-light.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Milk-Light visual specimen: a spare domestic room with a table, glass vessel, and two distant anonymous figures suspended as islands in an opaque luminous atmosphere, as though warm milk has replaced the air. Edges should barely hold, shadows should be soft but present, and ivory-white light should carry faint gold, blush, and dusty-blue undertones with a painterly surface. Make it intentionally substantive and tender, not an accidental overexposure, empty white void, snow scene, or horror image. Palette: #f0e4cc, #d8c8b0, #c4a46a, #c45a6a, #6a8cba. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current daylight photograph of cows is a literal keyword mismatch and does not demonstrate opaque liquid light, nearly dissolved edges, or high-key atmospheric suspension.",
+      "confidence": 1.0
+    },
+    {
+      "id": "ash-opera",
+      "name": "Ash Opera",
+      "action": "generate",
+      "current_asset": { "file": "ash-opera.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Ash Opera visual specimen: the interior of a ruined grand opera house composed almost entirely in layered ash gray, its stage, boxes, and collapsed arches still geometrically theatrical, one intact velvet-red curtain or seat glowing against the ruin, and fine falling ash catching spotlights like silver glitter. Include only tiny anonymous silhouettes to convey scale; make it elegiac and performative, not action-heavy, muddy brown, or generic post-apocalypse. Palette: #6b6b6b, #8b1e1e, #d8c8b0, #1a1a16, #c4a46a. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current isolated CGI portrait has no opera house, ash-gray ruin, stage geometry, velvet accent, or post-performance atmosphere.",
+      "confidence": 1.0
+    },
+    {
+      "id": "coral-brutalism",
+      "name": "Coral Brutalism",
+      "action": "generate",
+      "current_asset": { "file": "coral-brutalism.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Coral Brutalism visual specimen: a monumental coastal city of raw gray concrete slabs, deep cantilevers, and geometric towers transformed into a living reef, with branching rose coral growing through windows, turquoise tidal channels washing the lower terraces, shell and sponge colonies colonizing seams, and dusk light making architecture and habitat inseparable. Keep it strange, massive, and hopeful—not a pretty aquarium, dry parking garage, or cute generic solarpunk postcard. Palette: #c45a6a, #6a7a8c, #1aa0a8, #1a1a16, #d8c8b0. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current satellite-like island photograph shows coral geography but no brutalist architecture, inhabitable reef-concrete synthesis, or tidal civic space.",
+      "confidence": 1.0
+    },
+    {
+      "id": "insect-manuscript",
+      "name": "Insect Manuscript",
+      "action": "generate",
+      "current_asset": { "file": "insect-manuscript.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Insect Manuscript visual specimen as an open sacred folio made from translucent wing membranes and dark vellum, with beetle-carapace gold leaf, tiny nonthreatening insect scribes arranging leg-like calligraphic marks, antennae forming interlace borders, and jewel-toned green and burnt-orange details under raking museum light. Fuse medieval illumination structure with exact entomological materials; sacred and intricate, never pest horror or generic fantasy bugs. Marks must remain decorative and unreadable. Palette: #c9a227, #1a1a16, #c45a28, #2f5d3a, #d8c8b0. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current historical butterfly plate offers insect reference only; it lacks the illuminated manuscript system, chitin gold, wing-pages, interlace, and visible miniature scribal labor.",
+      "confidence": 0.99
+    },
+    {
+      "id": "hollow-year",
+      "name": "Hollow Year",
+      "action": "generate",
+      "current_asset": { "file": "hollow-year.png", "kind": "generated" },
+      "exact_source": null,
+      "prompt": "Create an original Hollow Year visual specimen: one continuous hand-painted field landscape carries spring blossom, high summer, autumn grain, and winter frost around the frame, but a clean irregular section of one season is literally punched out of the world, revealing a luminous depthless absence through which incompatible weather leaks. Mix tactile paper fibers with convincing terrain so the missing month feels like a wound of light, not a calendar graphic, chart, or cute infographic. Palette: #5a8c6a, #c45a28, #6a8cba, #d8c8b0, #1a1a16. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no numerals, no logo, no watermark.",
+      "rationale": "The current concentric palette placeholder contains no seasonal landscape, literal missing interval, paper-field hybrid, or leaking weather.",
+      "confidence": 1.0
+    },
+    {
+      "id": "glass-organs",
+      "name": "Glass Organs",
+      "action": "generate",
+      "current_asset": { "file": "glass-organs.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Glass Organs visual specimen inside a hushed chapel: transparent organ-like chambers made entirely from cobalt, ruby, amber, and ivory stained glass hang as luminous architectural windows within a human-scale sanctuary, connected by fine dark leading like vessels, with colored light pooling over stone. The anatomy must be symbolic, beautiful, and sacred—no flesh, blood, medical gore, cute cartoon anatomy, or clinical diagram. Palette: #1f4d9a, #c4122f, #c9a227, #d8c8b0, #1a1a16. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current eyeglasses-on-notebook photograph is a false keyword match and does not depict transparent stained-glass physiology or chapel light.",
+      "confidence": 1.0
+    },
+    {
+      "id": "forgotten-hud",
+      "name": "Forgotten HUD",
+      "action": "generate",
+      "current_asset": { "file": "forgotten-hud.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Forgotten HUD visual specimen: a quiet pastoral ruin at dusk where faded interface fragments from no identifiable game survive like archaeological ghosts—a segmented bar embedded in a tree's bark, a translucent bracket hovering over a broken fountain, old pixel pips half-buried in grass, and a pale menu-shaped cloud. Blend visual languages from the 1990s through 2010s with analog wear and melancholy play; no modern-clean UI, real game screenshot, letters, numerals, icons from known products, or dense MMO clutter. Palette: #6a8cba, #c45a6a, #d4b45a, #1a1a16, #5a8c6a. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current cropped fashion/CG image is unrelated to abandoned landscapes, faded interface archaeology, or mixed-era game-memory melancholy.",
+      "confidence": 1.0
+    },
+    {
+      "id": "train-that-is-a-house",
+      "name": "Train-That-Is-a-House",
+      "action": "generate",
+      "current_asset": { "file": "train-that-is-a-house.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Train-That-Is-a-House visual specimen as a long lateral cutaway of a moving train whose connected cars are complete domestic rooms: a 1960s kitchen, 1980s sitting room, 1990s bedroom, and timeless hallway flowing continuously through one corridor, each window showing a different remembered season. Use warm analog film color, repeated lamps, worn wood, rose fabric, dusty blue glass, and a sense of home gently in motion; no sleek bullet-train chrome, action, or horror. Palette: #c4a46a, #6a5a44, #c45a6a, #1a1a16, #6a8cba. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current dog photograph has no train, domestic cutaway, corridor of decades, moving home, or memory windows.",
+      "confidence": 1.0
+    },
+    {
+      "id": "red-room-cousin",
+      "name": "Not-Lynch Red Room",
+      "action": "generate",
+      "current_asset": { "file": "red-room-cousin.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Not-Lynch Red Room visual specimen: a wholly invented other-space built from deep oxblood velvet curtains arranged in asymmetrical concentric arcs, a matte near-black oval floor with no zigzags, low amber globe lamps, one impossible lavender doorway floating above the floor, and empty seating positioned for an unexplained ritual. Use analog softness and uncanny etiquette while avoiding any direct copy of a known television set, performer portrait, chevron floor, or recognizable prop. Palette: #8b1e1e, #1a1a16, #d4b45a, #c4a46a, #3a2a44. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current stage-performer photograph has red curtains but is not an original architectural other-space and risks reading as a literal event photo rather than a distinct visual system.",
+      "confidence": 0.99
+    },
+    {
+      "id": "childhood-zoom",
+      "name": "Childhood Zoom",
+      "action": "generate",
+      "current_asset": { "file": "childhood-zoom.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Childhood Zoom visual specimen from a fixed toddler-height camera only inches above a domestic floor: table undersides form a dark architectural sky, adult knees and chair legs pass like distant columns, carpet fibers become a meadow, dust motes fill warm window light like weather, and one familiar toy appears small rather than heroic. Use intimate analog grain and accurate low perspective to evoke embodied childhood memory, not a stock baby advertisement or giant-adult horror. Palette: #c4a46a, #c45a6a, #6a8cba, #d8c8b0, #1a1a16. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current street photograph of children is generic documentary imagery; it does not lock the viewpoint at toddler height or transform furniture and dust into architecture and weather.",
+      "confidence": 1.0
+    },
+    {
+      "id": "dictionary-of-fog",
+      "name": "Dictionary of Fog",
+      "action": "generate",
+      "current_asset": { "file": "dictionary-of-fog.png", "kind": "generated" },
+      "exact_source": null,
+      "prompt": "Create an original Dictionary of Fog visual specimen: a misty landscape organized into quiet lexicon-like chambers, with separate fog banks behaving as entries, thin rule lines becoming paths, subtle column geometry in the weather, and ghostlike fragments of nonalphabetic marks dissolving before they can be read. Blend scholarly editorial order with deep atmospheric space in sage gray, warm ivory, ink, muted gold, and dusty blue. It must feel walkable and hushed, never like an infographic or a wall of fake prose. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current abstract palette ribbons neither show fog nor translate dictionary structure into atmospheric rooms and walkable definitions.",
+      "confidence": 1.0
+    },
+    {
+      "id": "salt-cathedral",
+      "name": "Salt Cathedral",
+      "action": "generate",
+      "current_asset": { "file": "salt-cathedral.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Salt Cathedral visual specimen: a monumental nave naturally grown from translucent salt crystal, with rose-white mineral vaults, granular columns, rough halite facets, thin brine channels, and a few low amber lamps refracting through the structure. Balance geological irregularity with sacred architectural rhythm and an almost audible hush; it must read as salt rather than blue ice, bone, or a fantasy ice castle, with no gore or decorative palace excess. Palette: #f0e4cc, #c45a6a, #d8c8b0, #1a1a16, #6a8cba. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current blue-lit tunnel or cave lacks recognizable salt crystal, cathedral-scale vaulting, rose-white mineral light, and the intended geological-sacred hush.",
+      "confidence": 1.0
+    },
+    {
+      "id": "moon-farm",
+      "name": "Moon Farm",
+      "action": "generate",
+      "current_asset": { "file": "moon-farm.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Moon Farm visual specimen: a working terrestrial field at deep night planted with rows of silver-green crops that open only in moonlight, a huge pearl moon low above the horizon, simple wooden irrigation channels glowing faintly, and several small anonymous workers quietly harvesting luminous pods by hand. Make it pastoral, practical, and strange, with soft filmic darkness and no rockets, domes, spacesuits, NASA lunar terrain, or cute alien-farm imagery. Palette: #8a9aaa, #d8c8b0, #2f5d3a, #1a1a16, #c4a46a. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current casual photograph of a horse through a window is not lunar agriculture and shows none of the silver crop, night labor, or pastoral-strange visual language.",
+      "confidence": 1.0
+    },
+    {
+      "id": "soft-polygon-heaven",
+      "name": "Soft-Polygon Heaven",
+      "action": "generate",
+      "current_asset": { "file": "soft-polygon-heaven.png", "kind": "generated" },
+      "exact_source": null,
+      "prompt": "Create an original Soft-Polygon Heaven visual specimen: a wide afterlife landscape made from deliberately few, large, softly shaded polygons—pastel rose hills, dusty-blue water, ivory cloud planes, muted-gold steps, gentle green trees, and tiny faceted anonymous figures moving toward diffuse light. Keep edges rounded by light, geometry simple but emotionally spacious, and detail economical; no PS1 horror, dark fog, plastic toy-ad gloss, photoreal clouds, or kitschy religious symbols. Palette: #c45a6a, #6a8cba, #d4b45a, #f0e4cc, #5a8c6a. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current flat palette pattern is not low-poly, does not create a spatial afterlife, and misses the style's few-triangles-yet-gentle emotional proposition.",
+      "confidence": 1.0
+    },
+    {
+      "id": "typewriter-weather",
+      "name": "Typewriter Weather",
+      "action": "generate",
+      "current_asset": { "file": "typewriter-weather.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Typewriter Weather visual specimen: an analog storm sweeping across a town, with a long black-and-brown ink ribbon twisting into the cloud front, blank metal keycaps falling as rain, ink splashes forming distant thunderheads, and paper fibers visible in the pale sky and wet streets. Compose it with tactile collage, typewriter mechanics, and restrained constructivist energy. Keycaps and fragments must carry no letters, and there must be no readable prose, Matrix-like digital rain, or screen UI. Palette: #1a1a16, #d8c8b0, #c45a28, #6a5a44, #c4a46a. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current black-and-white office photograph merely includes a typewriter-era interior; it does not turn ribbon, keys, and ink into an analog climate.",
+      "confidence": 1.0
+    },
+    {
+      "id": "museum-of-unborn-colors",
+      "name": "Museum of Unborn Colors",
+      "action": "generate",
+      "current_asset": { "file": "museum-of-unborn-colors.png", "kind": "generated" },
+      "exact_source": null,
+      "prompt": "Create an original Museum of Unborn Colors visual specimen: a serene sequence of high-ceilinged gallery rooms, each wall carrying an almost-unnameable mineral hue that shifts between mauve, lichen, warm stone, and green-gray depending on angle, with controlled apertures causing subtle simultaneous-color effects and one or two tiny anonymous visitors for scale. Make it quiet, taxonomic, and nearly sacred, with tactile matte paint and restrained plaques represented only as blank shapes. No rainbow spectacle, children's palette, infographic, or legible labels. Palette anchor: #8a7aaa, #c4b48a, #6a8c7a, #1a1a16, #d8c8b0. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current geometric palette study has no museum space, perceptual color shifts, taxonomic display logic, or quiet encounter with almost-hues.",
+      "confidence": 1.0
+    },
+    {
+      "id": "clock-skin",
+      "name": "Clock-Skin World",
+      "action": "generate",
+      "current_asset": { "file": "clock-skin.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Clock-Skin World visual specimen: a quiet street and still-life foreground where stone walls, ceramic vessels, tree bark, and cloth are made from subtle radial clock-face textures, fine hands embedded like veins in their surfaces, and small concentric hour pores catching gold light. The world should imply ticking through repeated orientation rather than display product clocks. No piles of clocks, melting forms, numerals, timezone graphic, or labels. Palette: #c4a46a, #1a1a16, #c45a28, #d8c8b0, #3a5a8c. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current red timezone graphic relies on explicit labels and numbers and does not treat timekeeping as the material skin of objects and architecture.",
+      "confidence": 1.0
+    },
+    {
+      "id": "rain-interior",
+      "name": "Rain Interior",
+      "action": "generate",
+      "current_asset": { "file": "rain-interior.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Rain Interior visual specimen: a warmly lamp-lit living room during steady rainfall that exists entirely indoors, droplets falling from calm empty air rather than a leaking ceiling, water gathering on a sofa, rug, books, and wooden floor while a seated anonymous figure continues reading without alarm. Use muted green-gray, amber, dusty blue, ivory, and deep black, reflective puddles, film grain, and domestic hush. No storm damage, panic, disaster leak, or mold horror. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current dry hotel-room photograph provides only an interior and entirely misses indoor weather, wet furniture, calm inhabitation, and luminous rain atmosphere.",
+      "confidence": 1.0
+    },
+    {
+      "id": "folded-city",
+      "name": "Folded City",
+      "action": "generate",
+      "current_asset": { "file": "folded-city.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Folded City visual specimen: an aerial-oblique metropolis formed from one continuous sheet of fibrous warm-ivory paper, with deep creases becoming boulevards, pleats rising into towers, cut-free folded bridges, blue shadow valleys, burnt-orange roof planes, and sunlight glowing through thin edges. Preserve the logic that every district can refold into the original sheet; sophisticated urban architecture, not a simple children's origami model or a photograph of an angular real building. Palette: #d8c8b0, #c45a28, #1a1a16, #6a8cba, #c4a46a. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current modern museum photograph has folded-looking lines but is a single literal building and does not demonstrate paper fiber, crease-streets, or a whole metropolis derived from one sheet.",
+      "confidence": 0.99
+    },
+    {
+      "id": "breath-architecture",
+      "name": "Breath Architecture",
+      "action": "generate",
+      "current_asset": { "file": "breath-architecture.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Breath Architecture visual specimen at dusk: a monumental civic building whose stone facade forms a slow rib cage, broad bays visibly expanding on an inhale, flexible mineral membranes bowing between columns, curtains and nearby trees responding to the same outward breath, and warm interior light suggesting a calm living city. Make the movement legible yet tender and architectural, with analog texture; no flesh, body horror, biomechanical eroticism, cartoon lung-shaped house, or signage. Palette: #c4a46a, #6a5a44, #d8c8b0, #1a1a16, #8b3a2a. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current bookstore facade is ordinary static architecture dominated by signage; it does not show rib-facades, expansion, synchronized inhale, or living civic monumentality.",
+      "confidence": 1.0
+    },
+    {
+      "id": "second-shadow",
+      "name": "Second Shadow",
+      "action": "generate",
+      "current_asset": { "file": "second-shadow.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Second Shadow visual specimen: a quiet ochre plaza in late afternoon with one anonymous walking figure, ordinary arcades, and exactly two distinct shadows—the expected long black shadow from the visible sun and a second wine-dark umbra lagging behind at an impossible angle from a light source that does not exist. Use precise metaphysical perspective, sparse architecture, warm ivory, dusty blue distance, and analog painterly texture. No duplicate person, horror doppelganger, generic noir, or jump scare. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current dim campsite photograph shows no visible figure with two shadows, absent light source, metaphysical plaza, or quiet wrong-afternoon geometry.",
+      "confidence": 1.0
+    },
+    {
+      "id": "quiet-apocalypse-pastel",
+      "name": "Quiet Apocalypse Pastel",
+      "action": "generate",
+      "current_asset": { "file": "quiet-apocalypse-pastel.png", "kind": "generated" },
+      "exact_source": null,
+      "prompt": "Create an original Quiet Apocalypse Pastel visual specimen as a hand-painted gouache landscape: a half-collapsed small city softened by wildflowers, three tiny anonymous figures sharing a simple picnic in the foreground, a silent abandoned road, and an enormous rose-blue-gold sky on the world's last mild day. Use visible brush texture, warm ivory ruins, gentle green growth, and no smoke spectacle. The mood is polite, tender, and final—not brown grimdark, action, gore, survival gear, or saccharine cottagecore denial. Palette: #c45a6a, #6a8cba, #d4b45a, #f0e4cc, #5a8c6a. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current generic pastel blocks use the colors but depict neither gouache ruin, tiny calm figures, huge last-day sky, nor the defining tension between catastrophe and politeness.",
+      "confidence": 1.0
+    },
+    {
+      "id": "myth-buffering",
+      "name": "Myth Buffering",
+      "action": "generate",
+      "current_asset": { "file": "myth-buffering.png", "kind": "generated" },
+      "exact_source": null,
+      "prompt": "Create an original Myth Buffering visual specimen: a solemn invented sacred procession rendered as aged gold-leaf fresco and mosaic, but parts of the divine scene have not finished resolving—a segmented circular halo in the sky behaves like a loading wheel, several faces remain blocky blank tesserae, and distant architecture breaks into muted blue and rose placeholder planes. The digital incompletion must operate as theology and weather, not as a literal app screen or joke. No known deity, meme, readable UI, or letters. Palette: #c9a227, #1a1a16, #6a8cba, #c45a6a, #d8c8b0. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current abstract palette placeholder has no sacred scene, gold-leaf material, buffering halo, unresolved mosaic faces, or analog-plus-network tension.",
+      "confidence": 1.0
+    },
+    {
+      "id": "dream-crt",
+      "name": "Dream CRT",
+      "action": "generate",
+      "current_asset": { "file": "dream-crt.png", "kind": "generated" },
+      "exact_source": null,
+      "prompt": "Create an original Dream CRT visual specimen: a tranquil night interior opening seamlessly into a world governed by cathode-ray physics, with the curved glass of an enormous invisible tube bending the horizon, green phosphor bloom becoming moonlight, fine scanlines falling like rain, rose and dusty-blue afterglow around sleeping furniture, and soft electron-grain clouds. It should feel like a television left on in another room as a lullaby, never analog-horror footage, warning screen, threat text, or jump scare. Palette: #1a1a16, #3aa06a, #c45a6a, #6a8cba, #d8c8b0. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current abstract green palette motif has no curved CRT world, phosphor bloom, scanline rain, night interior, or gentle broadcast-dream atmosphere.",
+      "confidence": 1.0
+    },
+    {
+      "id": "honey-geometry",
+      "name": "Honey Geometry",
+      "action": "generate",
+      "current_asset": { "file": "honey-geometry.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Honey Geometry visual specimen: a sacred interior built from precise nested hexagons and dark geometric vaults, filled with translucent amber honey that moves under gravity in long slow drips, pools across a stone altar, and refracts muted blue and ivory light through tessellated cells. Balance mathematical rigor with tactile viscosity and quiet ritual; no cartoon bees, breakfast branding, simple macro honeycomb, or dry diagram. Palette: #c9a227, #6a4a2a, #1a1a16, #d8c8b0, #3a5a8c. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current literal honeycomb macro supplies hexagons but not sacred space, slow fluid physics, nested geometry, or the designed fusion of mathematics and viscosity.",
+      "confidence": 0.99
+    },
+    {
+      "id": "lantern-organs",
+      "name": "Lantern Organs",
+      "action": "generate",
+      "current_asset": { "file": "lantern-organs.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Lantern Organs visual specimen: a nighttime procession moving through darkness beneath large handmade paper lanterns whose elegant abstract forms suggest lungs, a heart, and branching vessels without depicting flesh, each lantern ribbed with bamboo and glowing cinnabar, gold, ivory, and deep red. Arrange the lights as a coherent festival physiology carried by small anonymous celebrants, tender and ceremonial rather than medical. Avoid gore, a generic postcard of one specific culture, or recognizable festival branding. Palette: #c45a28, #c9a227, #1a1a16, #c4122f, #d8c8b0. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current building-entrance photograph contains no lantern procession, paper physiology, anatomical light system, or celebratory glow.",
+      "confidence": 1.0
+    },
+    {
+      "id": "snow-that-is-paper",
+      "name": "Snow-That-Is-Paper",
+      "action": "generate",
+      "current_asset": { "file": "snow-that-is-paper.jpg", "kind": "openverse" },
+      "exact_source": null,
+      "prompt": "Create an original Snow-That-Is-Paper visual specimen: a quiet winter town during a heavy snowfall made entirely of torn ivory paper fragments and thin blank pages, sheets fluttering at different depths, drifts accumulating as layered stationery, black ink bleeding into the wet slush, and dusty-blue roofs fading into analog haze. Preserve the hush and material reality of paper weather; fragments may show only abstract smudges, never readable writing. No flower macro, ordinary snow photo, or fake prose. Palette: #f0e4cc, #1a1a16, #6a8cba, #c4a46a, #c45a6a. Landscape 3:2 gallery thumbnail, edge-to-edge art, no border, no caption, no text, no logo, no watermark.",
+      "rationale": "The current saturated flower close-up is wholly unrelated to a winter landscape, falling pages, paper drifts, ink slush, and stationery-climate hush.",
+      "confidence": 1.0
+    }
+  ]
+}

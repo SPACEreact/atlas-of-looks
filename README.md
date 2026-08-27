@@ -29,10 +29,14 @@ Open [http://localhost:5173](http://localhost:5173).
 
 ## Image library
 
-Every one of the 433 styles has a local image. Openly licensed images include source and license credits in the detail view and in `public/style-images/ATTRIBUTION.md`. When no safe source is available, the atlas uses an original palette study generated from the style data.
+Every one of the 433 styles has a repository-local image, so the full atlas works from GitHub Pages without hotlinked thumbnails. Openly licensed images include source and license credits in the detail view and in `public/style-images/ATTRIBUTION.md`. When a trustworthy representative source is unavailable, the target is a bespoke original Atlas specimen.
 
-To rebuild the image library:
+The complete visual-relevance audit and remaining curation work are documented in [`GROK_HANDOFF.md`](GROK_HANDOFF.md). The handoff is intentionally explicit about which legacy automated matches still need replacement.
+
+After changing `public/style-images/credits.json`, rebuild the TypeScript manifest and attribution table with:
 
 ```
-npm run images:refresh
+npm run images:sync
 ```
+
+`images:refresh` is only a bootstrap tool for an empty library. Do not run it over the curated set: automated Openverse matches require human visual review.
