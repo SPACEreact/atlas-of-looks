@@ -34,10 +34,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
   "aboriginal-xray": {
-    "file": "aboriginal-xray.png",
-    "alt": "Abstract palette study for Arnhem Land X-ray",
+    "file": "aboriginal-xray.jpg",
+    "alt": "Original Atlas visual specimen for Arnhem Land X-ray",
     "kind": "generated",
-    "title": "Arnhem Land X-ray palette study",
+    "title": "Arnhem Land X-ray — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -64,10 +64,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "adinkra": {
-    "file": "adinkra.png",
-    "alt": "Abstract palette study for Adinkra",
+    "file": "adinkra.jpg",
+    "alt": "Original Atlas visual specimen for Adinkra",
     "kind": "generated",
-    "title": "Adinkra palette study",
+    "title": "Adinkra — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -84,20 +84,20 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "afrofuturism": {
-    "file": "afrofuturism.png",
-    "alt": "Abstract palette study for Afrofuturism",
+    "file": "afrofuturism.jpg",
+    "alt": "Original Atlas visual specimen for Afrofuturism",
     "kind": "generated",
-    "title": "Afrofuturism palette study",
+    "title": "Afrofuturism — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
     "licenseUrl": ""
   },
   "airbrush-90s": {
-    "file": "airbrush-90s.png",
-    "alt": "Abstract palette study for 90s Airbrush / Digital Paint",
+    "file": "airbrush-90s.jpg",
+    "alt": "Original Atlas visual specimen for 90s Airbrush / Digital Paint",
     "kind": "generated",
-    "title": "90s Airbrush / Digital Paint palette study",
+    "title": "90s Airbrush / Digital Paint — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -114,10 +114,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "akira": {
-    "file": "akira.png",
-    "alt": "Abstract palette study for Akira (1988)",
+    "file": "akira.jpg",
+    "alt": "Original Atlas visual specimen for Akira (1988)",
     "kind": "generated",
-    "title": "Akira (1988) palette study",
+    "title": "Akira (1988) — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -154,10 +154,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "amelie": {
-    "file": "amelie.png",
-    "alt": "Abstract palette study for Amélie / Jeunet",
+    "file": "amelie.jpg",
+    "alt": "Original Atlas visual specimen for Amélie / Jeunet",
     "kind": "generated",
-    "title": "Amélie / Jeunet palette study",
+    "title": "Amélie / Jeunet — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -194,10 +194,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "anime-90s-ova": {
-    "file": "anime-90s-ova.png",
-    "alt": "Abstract palette study for 90s OVA Anime Cinema",
+    "file": "anime-90s-ova.jpg",
+    "alt": "Original Atlas visual specimen for 90s OVA Anime Cinema",
     "kind": "generated",
-    "title": "90s OVA Anime Cinema palette study",
+    "title": "90s OVA Anime Cinema — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -224,10 +224,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "arcane": {
-    "file": "arcane.png",
-    "alt": "Abstract palette study for Arcane / Fortiche",
+    "file": "arcane.jpg",
+    "alt": "Original Atlas visual specimen for Arcane / Fortiche",
     "kind": "generated",
-    "title": "Arcane / Fortiche palette study",
+    "title": "Arcane / Fortiche — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -304,20 +304,20 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "azulejo": {
-    "file": "azulejo.png",
-    "alt": "Abstract palette study for Azulejo",
+    "file": "azulejo.jpg",
+    "alt": "Original Atlas visual specimen for Azulejo",
     "kind": "generated",
-    "title": "Azulejo palette study",
+    "title": "Azulejo — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
     "licenseUrl": ""
   },
   "backrooms": {
-    "file": "backrooms.png",
-    "alt": "Abstract palette study for The Backrooms",
+    "file": "backrooms.jpg",
+    "alt": "Original Atlas visual specimen for The Backrooms",
     "kind": "generated",
-    "title": "The Backrooms palette study",
+    "title": "The Backrooms — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -344,10 +344,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
   },
   "barbizon": {
-    "file": "barbizon.png",
-    "alt": "Abstract palette study for Barbizon",
+    "file": "barbizon.jpg",
+    "alt": "Original Atlas visual specimen for Barbizon",
     "kind": "generated",
-    "title": "Barbizon palette study",
+    "title": "Barbizon — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -374,10 +374,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "batik": {
-    "file": "batik.png",
-    "alt": "Abstract palette study for Javanese Batik",
+    "file": "batik.jpg",
+    "alt": "Original Atlas visual specimen for Javanese Batik",
     "kind": "generated",
-    "title": "Javanese Batik palette study",
+    "title": "Javanese Batik — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -434,10 +434,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "blade-runner": {
-    "file": "blade-runner.png",
-    "alt": "Abstract palette study for Blade Runner / Scott Tech-Noir",
+    "file": "blade-runner.jpg",
+    "alt": "Original Atlas visual specimen for Blade Runner / Scott Tech-Noir",
     "kind": "generated",
-    "title": "Blade Runner / Scott Tech-Noir palette study",
+    "title": "Blade Runner / Scott Tech-Noir — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -474,10 +474,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "bluth": {
-    "file": "bluth.png",
-    "alt": "Abstract palette study for Don Bluth",
+    "file": "bluth.jpg",
+    "alt": "Original Atlas visual specimen for Don Bluth",
     "kind": "generated",
-    "title": "Don Bluth palette study",
+    "title": "Don Bluth — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -494,20 +494,20 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "bong": {
-    "file": "bong.png",
-    "alt": "Abstract palette study for Bong Joon-ho",
+    "file": "bong.jpg",
+    "alt": "Original Atlas visual specimen for Bong Joon-ho",
     "kind": "generated",
-    "title": "Bong Joon-ho palette study",
+    "title": "Bong Joon-ho — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
     "licenseUrl": ""
   },
   "botticelli": {
-    "file": "botticelli.png",
-    "alt": "Abstract palette study for Botticelli Line",
+    "file": "botticelli.jpg",
+    "alt": "Original Atlas visual specimen for Botticelli Line",
     "kind": "generated",
-    "title": "Botticelli Line palette study",
+    "title": "Botticelli Line — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -534,10 +534,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "brutalist-web": {
-    "file": "brutalist-web.png",
-    "alt": "Abstract palette study for Brutalist Web / Raw HTML",
+    "file": "brutalist-web.jpg",
+    "alt": "Original Atlas visual specimen for Brutalist Web / Raw HTML",
     "kind": "generated",
-    "title": "Brutalist Web / Raw HTML palette study",
+    "title": "Brutalist Web / Raw HTML — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -574,30 +574,30 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "caravaggio": {
-    "file": "caravaggio.png",
-    "alt": "Abstract palette study for Caravaggism",
+    "file": "caravaggio.jpg",
+    "alt": "Original Atlas visual specimen for Caravaggism",
     "kind": "generated",
-    "title": "Caravaggism palette study",
+    "title": "Caravaggism — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
     "licenseUrl": ""
   },
   "cartoon-saloon": {
-    "file": "cartoon-saloon.png",
-    "alt": "Abstract palette study for Cartoon Saloon",
+    "file": "cartoon-saloon.jpg",
+    "alt": "Original Atlas visual specimen for Cartoon Saloon",
     "kind": "generated",
-    "title": "Cartoon Saloon palette study",
+    "title": "Cartoon Saloon — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
     "licenseUrl": ""
   },
   "cave-art": {
-    "file": "cave-art.png",
-    "alt": "Abstract palette study for Paleolithic Cave",
+    "file": "cave-art.jpg",
+    "alt": "Original Atlas visual specimen for Paleolithic Cave",
     "kind": "generated",
-    "title": "Paleolithic Cave palette study",
+    "title": "Paleolithic Cave — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -744,10 +744,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "control": {
-    "file": "control.png",
-    "alt": "Abstract palette study for Control",
+    "file": "control.jpg",
+    "alt": "Original Atlas visual specimen for Control",
     "kind": "generated",
-    "title": "Control palette study",
+    "title": "Control — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -814,10 +814,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "cuphead": {
-    "file": "cuphead.png",
-    "alt": "Abstract palette study for Cuphead / Studio MDHR",
+    "file": "cuphead.jpg",
+    "alt": "Original Atlas visual specimen for Cuphead / Studio MDHR",
     "kind": "generated",
-    "title": "Cuphead / Studio MDHR palette study",
+    "title": "Cuphead / Studio MDHR — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -894,10 +894,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "dark-souls": {
-    "file": "dark-souls.png",
-    "alt": "Abstract palette study for Dark Souls",
+    "file": "dark-souls.jpg",
+    "alt": "Original Atlas visual specimen for Dark Souls",
     "kind": "generated",
-    "title": "Dark Souls palette study",
+    "title": "Dark Souls — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -994,10 +994,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
   },
   "disco-elysium": {
-    "file": "disco-elysium.png",
-    "alt": "Abstract palette study for Disco Elysium",
+    "file": "disco-elysium.jpg",
+    "alt": "Original Atlas visual specimen for Disco Elysium",
     "kind": "generated",
-    "title": "Disco Elysium palette study",
+    "title": "Disco Elysium — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -1164,10 +1164,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "elden-ring": {
-    "file": "elden-ring.png",
-    "alt": "Abstract palette study for Elden Ring",
+    "file": "elden-ring.jpg",
+    "alt": "Original Atlas visual specimen for Elden Ring",
     "kind": "generated",
-    "title": "Elden Ring palette study",
+    "title": "Elden Ring — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -1234,10 +1234,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
   },
   "fayum": {
-    "file": "fayum.png",
-    "alt": "Abstract palette study for Fayum Portrait",
+    "file": "fayum.jpg",
+    "alt": "Original Atlas visual specimen for Fayum Portrait",
     "kind": "generated",
-    "title": "Fayum Portrait palette study",
+    "title": "Fayum Portrait — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -1354,30 +1354,30 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "found-footage": {
-    "file": "found-footage.png",
-    "alt": "Abstract palette study for Found Footage",
+    "file": "found-footage.jpg",
+    "alt": "Original Atlas visual specimen for Found Footage",
     "kind": "generated",
-    "title": "Found Footage palette study",
+    "title": "Found Footage — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
     "licenseUrl": ""
   },
   "french-new-wave": {
-    "file": "french-new-wave.png",
-    "alt": "Abstract palette study for French New Wave",
+    "file": "french-new-wave.jpg",
+    "alt": "Original Atlas visual specimen for French New Wave",
     "kind": "generated",
-    "title": "French New Wave palette study",
+    "title": "French New Wave — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
     "licenseUrl": ""
   },
   "fresco": {
-    "file": "fresco.png",
-    "alt": "Abstract palette study for Buon Fresco",
+    "file": "fresco.jpg",
+    "alt": "Original Atlas visual specimen for Buon Fresco",
     "kind": "generated",
-    "title": "Buon Fresco palette study",
+    "title": "Buon Fresco — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -1504,20 +1504,20 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
   },
   "giallo": {
-    "file": "giallo.png",
-    "alt": "Abstract palette study for Giallo",
+    "file": "giallo.jpg",
+    "alt": "Original Atlas visual specimen for Giallo",
     "kind": "generated",
-    "title": "Giallo palette study",
+    "title": "Giallo — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
     "licenseUrl": ""
   },
   "giger": {
-    "file": "giger.png",
-    "alt": "Abstract palette study for H.R. Giger",
+    "file": "giger.jpg",
+    "alt": "Original Atlas visual specimen for H.R. Giger",
     "kind": "generated",
-    "title": "H.R. Giger palette study",
+    "title": "H.R. Giger — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -1574,20 +1574,20 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "gongbi": {
-    "file": "gongbi.png",
-    "alt": "Abstract palette study for Gongbi",
+    "file": "gongbi.jpg",
+    "alt": "Original Atlas visual specimen for Gongbi",
     "kind": "generated",
-    "title": "Gongbi palette study",
+    "title": "Gongbi — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
     "licenseUrl": ""
   },
   "gothic": {
-    "file": "gothic.png",
-    "alt": "Abstract palette study for Gothic",
+    "file": "gothic.jpg",
+    "alt": "Original Atlas visual specimen for Gothic",
     "kind": "generated",
-    "title": "Gothic palette study",
+    "title": "Gothic — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -1614,30 +1614,30 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
   },
   "goya": {
-    "file": "goya.png",
-    "alt": "Abstract palette study for Goya",
+    "file": "goya.jpg",
+    "alt": "Original Atlas visual specimen for Goya",
     "kind": "generated",
-    "title": "Goya palette study",
+    "title": "Goya — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
     "licenseUrl": ""
   },
   "greek-vase": {
-    "file": "greek-vase.png",
-    "alt": "Abstract palette study for Greek Vase Painting",
+    "file": "greek-vase.jpg",
+    "alt": "Original Atlas visual specimen for Greek Vase Painting",
     "kind": "generated",
-    "title": "Greek Vase Painting palette study",
+    "title": "Greek Vase Painting — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
     "licenseUrl": ""
   },
   "gris": {
-    "file": "gris.png",
-    "alt": "Abstract palette study for Gris",
+    "file": "gris.jpg",
+    "alt": "Original Atlas visual specimen for Gris",
     "kind": "generated",
-    "title": "Gris palette study",
+    "title": "Gris — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -1734,10 +1734,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "hero-zhang": {
-    "file": "hero-zhang.png",
-    "alt": "Abstract palette study for Zhang Yimou Color Opera",
+    "file": "hero-zhang.jpg",
+    "alt": "Original Atlas visual specimen for Zhang Yimou Color Opera",
     "kind": "generated",
-    "title": "Zhang Yimou Color Opera palette study",
+    "title": "Zhang Yimou Color Opera — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -1874,10 +1874,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "inside": {
-    "file": "inside.png",
-    "alt": "Abstract palette study for Inside",
+    "file": "inside.jpg",
+    "alt": "Original Atlas visual specimen for Inside",
     "kind": "generated",
-    "title": "Inside palette study",
+    "title": "Inside — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -1904,30 +1904,30 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "italian-neorealism": {
-    "file": "italian-neorealism.png",
-    "alt": "Abstract palette study for Italian Neorealism",
+    "file": "italian-neorealism.jpg",
+    "alt": "Original Atlas visual specimen for Italian Neorealism",
     "kind": "generated",
-    "title": "Italian Neorealism palette study",
+    "title": "Italian Neorealism — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
     "licenseUrl": ""
   },
   "iznik": {
-    "file": "iznik.png",
-    "alt": "Abstract palette study for Iznik",
+    "file": "iznik.jpg",
+    "alt": "Original Atlas visual specimen for Iznik",
     "kind": "generated",
-    "title": "Iznik palette study",
+    "title": "Iznik — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
     "licenseUrl": ""
   },
   "jojo": {
-    "file": "jojo.png",
-    "alt": "Abstract palette study for JoJo / Araki",
+    "file": "jojo.jpg",
+    "alt": "Original Atlas visual specimen for JoJo / Araki",
     "kind": "generated",
-    "title": "JoJo / Araki palette study",
+    "title": "JoJo / Araki — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -2014,10 +2014,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "kente": {
-    "file": "kente.png",
-    "alt": "Abstract palette study for Kente",
+    "file": "kente.jpg",
+    "alt": "Original Atlas visual specimen for Kente",
     "kind": "generated",
-    "title": "Kente palette study",
+    "title": "Kente — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -2254,10 +2254,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "lotr-jackson": {
-    "file": "lotr-jackson.png",
-    "alt": "Abstract palette study for Jackson / Weta Middle-earth",
+    "file": "lotr-jackson.jpg",
+    "alt": "Original Atlas visual specimen for Jackson / Weta Middle-earth",
     "kind": "generated",
-    "title": "Jackson / Weta Middle-earth palette study",
+    "title": "Jackson / Weta Middle-earth — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -2324,10 +2324,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
   },
   "madhubani": {
-    "file": "madhubani.png",
-    "alt": "Abstract palette study for Madhubani",
+    "file": "madhubani.jpg",
+    "alt": "Original Atlas visual specimen for Madhubani",
     "kind": "generated",
-    "title": "Madhubani palette study",
+    "title": "Madhubani — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -2344,10 +2344,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "malick": {
-    "file": "malick.png",
-    "alt": "Abstract palette study for Malick",
+    "file": "malick.jpg",
+    "alt": "Original Atlas visual specimen for Malick",
     "kind": "generated",
-    "title": "Malick palette study",
+    "title": "Malick — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -2444,10 +2444,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "matrix": {
-    "file": "matrix.png",
-    "alt": "Abstract palette study for The Matrix (1999)",
+    "file": "matrix.jpg",
+    "alt": "Original Atlas visual specimen for The Matrix (1999)",
     "kind": "generated",
-    "title": "The Matrix (1999) palette study",
+    "title": "The Matrix (1999) — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -2544,20 +2544,20 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "miller-noir": {
-    "file": "miller-noir.png",
-    "alt": "Abstract palette study for Frank Miller Noir",
+    "file": "miller-noir.jpg",
+    "alt": "Original Atlas visual specimen for Frank Miller Noir",
     "kind": "generated",
-    "title": "Frank Miller Noir palette study",
+    "title": "Frank Miller Noir — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
     "licenseUrl": ""
   },
   "minecraft": {
-    "file": "minecraft.png",
-    "alt": "Abstract palette study for Minecraft",
+    "file": "minecraft.jpg",
+    "alt": "Original Atlas visual specimen for Minecraft",
     "kind": "generated",
-    "title": "Minecraft palette study",
+    "title": "Minecraft — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -2654,10 +2654,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
   },
   "mosaic": {
-    "file": "mosaic.png",
-    "alt": "Abstract palette study for Mosaic",
+    "file": "mosaic.jpg",
+    "alt": "Original Atlas visual specimen for Mosaic",
     "kind": "generated",
-    "title": "Mosaic palette study",
+    "title": "Mosaic — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -2704,10 +2704,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "n64": {
-    "file": "n64.png",
-    "alt": "Abstract palette study for Nintendo 64 Fog",
+    "file": "n64.jpg",
+    "alt": "Original Atlas visual specimen for Nintendo 64 Fog",
     "kind": "generated",
-    "title": "Nintendo 64 Fog palette study",
+    "title": "Nintendo 64 Fog — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -2744,10 +2744,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
   },
   "ndebele": {
-    "file": "ndebele.png",
-    "alt": "Abstract palette study for Ndebele Mural",
+    "file": "ndebele.jpg",
+    "alt": "Original Atlas visual specimen for Ndebele Mural",
     "kind": "generated",
-    "title": "Ndebele Mural palette study",
+    "title": "Ndebele Mural — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -2764,10 +2764,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "neo-noir": {
-    "file": "neo-noir.png",
-    "alt": "Abstract palette study for Neo-Noir / Neon Noir",
+    "file": "neo-noir.jpg",
+    "alt": "Original Atlas visual specimen for Neo-Noir / Neon Noir",
     "kind": "generated",
-    "title": "Neo-Noir / Neon Noir palette study",
+    "title": "Neo-Noir / Neon Noir — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -2834,10 +2834,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "nihonga": {
-    "file": "nihonga.png",
-    "alt": "Abstract palette study for Nihonga",
+    "file": "nihonga.jpg",
+    "alt": "Original Atlas visual specimen for Nihonga",
     "kind": "generated",
-    "title": "Nihonga palette study",
+    "title": "Nihonga — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -2874,10 +2874,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
   },
   "obra-dinn": {
-    "file": "obra-dinn.png",
-    "alt": "Abstract palette study for Return of the Obra Dinn",
+    "file": "obra-dinn.jpg",
+    "alt": "Original Atlas visual specimen for Return of the Obra Dinn",
     "kind": "generated",
-    "title": "Return of the Obra Dinn palette study",
+    "title": "Return of the Obra Dinn — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -2904,10 +2904,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
   "okami": {
-    "file": "okami.png",
-    "alt": "Abstract palette study for Ōkami",
+    "file": "okami.jpg",
+    "alt": "Original Atlas visual specimen for Ōkami",
     "kind": "generated",
-    "title": "Ōkami palette study",
+    "title": "Ōkami — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -2944,10 +2944,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
   },
   "ozu": {
-    "file": "ozu.png",
-    "alt": "Abstract palette study for Ozu",
+    "file": "ozu.jpg",
+    "alt": "Original Atlas visual specimen for Ozu",
     "kind": "generated",
-    "title": "Ozu palette study",
+    "title": "Ozu — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -3074,30 +3074,30 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "pico-8": {
-    "file": "pico-8.png",
-    "alt": "Abstract palette study for PICO-8",
+    "file": "pico-8.jpg",
+    "alt": "Original Atlas visual specimen for PICO-8",
     "kind": "generated",
-    "title": "PICO-8 palette study",
+    "title": "PICO-8 — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
     "licenseUrl": ""
   },
   "pixar": {
-    "file": "pixar.png",
-    "alt": "Abstract palette study for Pixar",
+    "file": "pixar.jpg",
+    "alt": "Original Atlas visual specimen for Pixar",
     "kind": "generated",
-    "title": "Pixar palette study",
+    "title": "Pixar — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
     "licenseUrl": ""
   },
   "pixel-art": {
-    "file": "pixel-art.png",
-    "alt": "Abstract palette study for Pixel Art",
+    "file": "pixel-art.jpg",
+    "alt": "Original Atlas visual specimen for Pixel Art",
     "kind": "generated",
-    "title": "Pixel Art palette study",
+    "title": "Pixel Art — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -3144,10 +3144,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "portal": {
-    "file": "portal.png",
-    "alt": "Abstract palette study for Portal",
+    "file": "portal.jpg",
+    "alt": "Original Atlas visual specimen for Portal",
     "kind": "generated",
-    "title": "Portal palette study",
+    "title": "Portal — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -3184,10 +3184,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "ps1": {
-    "file": "ps1.png",
-    "alt": "Abstract palette study for PlayStation 1 / Affine 3D",
+    "file": "ps1.jpg",
+    "alt": "Original Atlas visual specimen for PlayStation 1 / Affine 3D",
     "kind": "generated",
-    "title": "PlayStation 1 / Affine 3D palette study",
+    "title": "PlayStation 1 / Affine 3D — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -3314,10 +3314,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "rinpa": {
-    "file": "rinpa.png",
-    "alt": "Abstract palette study for Rinpa",
+    "file": "rinpa.jpg",
+    "alt": "Original Atlas visual specimen for Rinpa",
     "kind": "generated",
-    "title": "Rinpa palette study",
+    "title": "Rinpa — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -3454,10 +3454,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "shan-shui": {
-    "file": "shan-shui.png",
-    "alt": "Abstract palette study for Shan Shui",
+    "file": "shan-shui.jpg",
+    "alt": "Original Atlas visual specimen for Shan Shui",
     "kind": "generated",
-    "title": "Shan Shui palette study",
+    "title": "Shan Shui — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -3524,10 +3524,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "snes": {
-    "file": "snes.png",
-    "alt": "Abstract palette study for SNES Mode 7 / 16-bit",
+    "file": "snes.jpg",
+    "alt": "Original Atlas visual specimen for SNES Mode 7 / 16-bit",
     "kind": "generated",
-    "title": "SNES Mode 7 / 16-bit palette study",
+    "title": "SNES Mode 7 / 16-bit — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -3634,10 +3634,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
   },
   "stardew": {
-    "file": "stardew.png",
-    "alt": "Abstract palette study for Stardew Valley",
+    "file": "stardew.jpg",
+    "alt": "Original Atlas visual specimen for Stardew Valley",
     "kind": "generated",
-    "title": "Stardew Valley palette study",
+    "title": "Stardew Valley — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -3844,10 +3844,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "tempera": {
-    "file": "tempera.png",
-    "alt": "Abstract palette study for Egg Tempera",
+    "file": "tempera.jpg",
+    "alt": "Original Atlas visual specimen for Egg Tempera",
     "kind": "generated",
-    "title": "Egg Tempera palette study",
+    "title": "Egg Tempera — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -3884,10 +3884,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "thangka": {
-    "file": "thangka.png",
-    "alt": "Abstract palette study for Thangka",
+    "file": "thangka.jpg",
+    "alt": "Original Atlas visual specimen for Thangka",
     "kind": "generated",
-    "title": "Thangka palette study",
+    "title": "Thangka — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -4074,10 +4074,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "villeneuve-dune": {
-    "file": "villeneuve-dune.png",
-    "alt": "Abstract palette study for Villeneuve / Dune Monumental",
+    "file": "villeneuve-dune.jpg",
+    "alt": "Original Atlas visual specimen for Villeneuve / Dune Monumental",
     "kind": "generated",
-    "title": "Villeneuve / Dune Monumental palette study",
+    "title": "Villeneuve / Dune Monumental — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -4124,10 +4124,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "warli": {
-    "file": "warli.png",
-    "alt": "Abstract palette study for Warli",
+    "file": "warli.jpg",
+    "alt": "Original Atlas visual specimen for Warli",
     "kind": "generated",
-    "title": "Warli palette study",
+    "title": "Warli — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -4254,10 +4254,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "wong-kar-wai": {
-    "file": "wong-kar-wai.png",
-    "alt": "Abstract palette study for Wong Kar-wai",
+    "file": "wong-kar-wai.jpg",
+    "alt": "Original Atlas visual specimen for Wong Kar-wai",
     "kind": "generated",
-    "title": "Wong Kar-wai palette study",
+    "title": "Wong Kar-wai — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -4334,10 +4334,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
   },
   "zellij": {
-    "file": "zellij.png",
-    "alt": "Abstract palette study for Zellij",
+    "file": "zellij.jpg",
+    "alt": "Original Atlas visual specimen for Zellij",
     "kind": "generated",
-    "title": "Zellij palette study",
+    "title": "Zellij — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",

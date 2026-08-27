@@ -8,11 +8,11 @@ All images must remain repository-local under `public/style-images/`, so they re
 
 ## Honest status at this checkpoint
 
-All 433 cards have local image files and the site is deployable. A full contact-sheet audit classified 131 images as visually acceptable at this checkpoint. The remaining 302 are present and load correctly, but still need visual-relevance curation:
+All 433 cards have local image files and the site is deployable. Palette-study placeholders have been reduced (87 remain as of the latest specimen pass). Remaining weak cards still need visual-relevance curation:
 
-- 9 invented Dreams were generated and integrated: `ash-opera`, `coral-brutalism`, `second-shadow`, `quiet-apocalypse-pastel`, `myth-buffering`, `dream-crt`, `honey-geometry`, `lantern-organs`, `snow-that-is-paper`.
-- 179 cinema, animation, comics, games, photography, design, and web entries need bespoke generation. The audit contains the exact remaining IDs and a safe, style-specific generation brief for every one.
-- 114 fine-art, cultural-tradition, and material entries need a canonical open-access source or, when that cannot be verified, a bespoke original image.
+- Remaining palette-study IDs are listed by `node scripts/build-gen-queue.mjs` → `handoff/gen-queue.json`.
+- Cinema, animation, comics, games, photography, design, and web entries still marked `generate` in `handoff/media-design.json` need specimens if they are not already replaced.
+- Fine-art / culture / material entries with `status: replace` in `handoff/fine-culture.json` still need a verified open-access source or a bespoke original.
 
 Already integrated during this pass:
 
