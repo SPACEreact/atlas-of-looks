@@ -1,4 +1,5 @@
 import type { RawStyle, Realm, Style } from "../types"
+import { STYLE_IMAGES } from "./style-images"
 
 const split = (s?: string) =>
   (s ?? "")
@@ -7,6 +8,8 @@ const split = (s?: string) =>
     .filter(Boolean)
 
 export function compile(r: RawStyle): Style {
+  const image = STYLE_IMAGES[r.id]
+  if (!image) throw new Error(`Missing image manifest entry for ${r.id}`)
   const palette = split(r.palette)
   const tags = split(r.tags)
   const aka = split(r.aka)
@@ -15,7 +18,7 @@ export function compile(r: RawStyle): Style {
     r.compact ||
     [r.name, r.origin, r.era, ...tags.slice(0, 8)].join(", ")
 
-  const prompt = `A {subject}, created in the authentic visual language of ${r.name} (${r.era}, ${r.origin}). ${r.look.trim()} Treat this as a complete style system: line quality, lighting, pigment, spatial logic, and surface texture must all belong to this tradition. Color world: ${palette.join(", ")}. ${r.bestFor ? `Especially strong for ${r.bestFor}.` : ""} Do not genericize into stock fantasy illustration. Do not mix in unrelated art movements unless asked.`
+  const prompt = `Create an image of {subject} in the authentic visual language of ${r.name} (${r.era}, ${r.origin}). ${r.look.trim()} Treat this as a complete style system: line quality, lighting, pigment, spatial logic, and surface texture must all belong to this tradition. Color world: ${palette.join(", ")}. ${r.bestFor ? `Especially strong for ${r.bestFor}.` : ""} Do not genericize into stock fantasy illustration. Do not mix in unrelated art movements unless asked.`
 
   return {
     id: r.id,
@@ -35,7 +38,17 @@ export function compile(r: RawStyle): Style {
     bestFor: r.bestFor || "any subject that can hold this visual grammar",
     examples: split(r.examples),
     related: split(r.related),
-    hero: r.hero,
+    image: {
+      src: `${import.meta.env.BASE_URL}style-images/${image.file}`,
+      alt: image.alt,
+      kind: image.kind,
+      title: image.title,
+      creator: image.creator,
+      sourceUrl: image.sourceUrl,
+      license: image.license,
+      licenseUrl: image.licenseUrl,
+    },
+    hero: r.hero ? `${import.meta.env.BASE_URL}${r.hero.replace(/^\//, "")}` : undefined,
   }
 }
 

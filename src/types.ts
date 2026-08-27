@@ -10,6 +10,17 @@ export type Realm =
   | "digital"
   | "dreams"
 
+export type StyleImage = {
+  src: string
+  alt: string
+  kind: "openverse" | "generated"
+  title: string
+  creator: string
+  sourceUrl: string
+  license: string
+  licenseUrl: string
+}
+
 export type Style = {
   id: string
   name: string
@@ -28,6 +39,7 @@ export type Style = {
   bestFor: string
   examples: string[]
   related: string[]
+  image: StyleImage
   hero?: string
 }
 

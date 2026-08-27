@@ -3,10 +3,9 @@ const KEY = "atlas-of-looks:v1"
 type Store = {
   saved: string[]
   subject: string
-  forged: unknown[]
 }
 
-const empty = (): Store => ({ saved: [], subject: "", forged: [] })
+const empty = (): Store => ({ saved: [], subject: "" })
 
 function read(): Store {
   try {
@@ -16,7 +15,6 @@ function read(): Store {
     return {
       saved: Array.isArray(p.saved) ? p.saved.filter((x) => typeof x === "string") : [],
       subject: typeof p.subject === "string" ? p.subject : "",
-      forged: Array.isArray(p.forged) ? p.forged : [],
     }
   } catch {
     return empty()
@@ -41,12 +39,4 @@ export function loadSubject(): string {
 
 export function saveSubject(subject: string) {
   write({ ...read(), subject })
-}
-
-export function loadForged<T>(): T[] {
-  return read().forged as T[]
-}
-
-export function saveForged<T>(items: T[]) {
-  write({ ...read(), forged: items })
 }

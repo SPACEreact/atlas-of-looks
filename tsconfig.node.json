@@ -19,5 +19,5 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["vite.config.ts", "forge-plugin.ts"]
+  "include": ["vite.config.ts"]
 }
