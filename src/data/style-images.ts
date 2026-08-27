@@ -275,13 +275,13 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
   },
   "ash-opera": {
     "file": "ash-opera.jpg",
-    "alt": "Ash Opera visual reference: KoKoLoReS Ash Gift_001",
-    "kind": "openverse",
-    "title": "KoKoLoReS Ash Gift_001",
-    "creator": "cajsa.lilliehook",
-    "sourceUrl": "https://www.flickr.com/photos/14514578@N08/19727067266",
-    "license": "CC BY-SA",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+    "alt": "Original Atlas visual specimen for Ash Opera",
+    "kind": "generated",
+    "title": "Ash Opera — original Atlas specimen",
+    "creator": "Atlas of Looks",
+    "sourceUrl": "",
+    "license": "Original",
+    "licenseUrl": ""
   },
   "asterix": {
     "file": "asterix.jpg",
@@ -765,13 +765,13 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
   },
   "coral-brutalism": {
     "file": "coral-brutalism.jpg",
-    "alt": "Coral Brutalism visual reference: Tarawa, Kiribati",
-    "kind": "openverse",
-    "title": "Tarawa, Kiribati",
-    "creator": "europeanspaceagency",
-    "sourceUrl": "https://www.flickr.com/photos/37472264@N04/50381716376",
-    "license": "CC BY-SA",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+    "alt": "Original Atlas visual specimen for Coral Brutalism",
+    "kind": "generated",
+    "title": "Coral Brutalism — original Atlas specimen",
+    "creator": "Atlas of Looks",
+    "sourceUrl": "",
+    "license": "Original",
+    "licenseUrl": ""
   },
   "corecore": {
     "file": "corecore.png",
@@ -1074,10 +1074,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "dream-crt": {
-    "file": "dream-crt.png",
-    "alt": "Abstract palette study for Dream CRT",
+    "file": "dream-crt.jpg",
+    "alt": "Original Atlas visual specimen for Dream CRT",
     "kind": "generated",
-    "title": "Dream CRT palette study",
+    "title": "Dream CRT — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -1775,13 +1775,13 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
   },
   "honey-geometry": {
     "file": "honey-geometry.jpg",
-    "alt": "Honey Geometry visual reference: Deserted hive",
-    "kind": "openverse",
-    "title": "Deserted hive",
-    "creator": "fdecomite",
-    "sourceUrl": "https://www.flickr.com/photos/21649179@N00/3861233459",
-    "license": "CC BY",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    "alt": "Original Atlas visual specimen for Honey Geometry",
+    "kind": "generated",
+    "title": "Honey Geometry — original Atlas specimen",
+    "creator": "Atlas of Looks",
+    "sourceUrl": "",
+    "license": "Original",
+    "licenseUrl": ""
   },
   "horizon": {
     "file": "horizon.jpg",
@@ -2145,13 +2145,13 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
   },
   "lantern-organs": {
     "file": "lantern-organs.jpg",
-    "alt": "Lantern Organs visual reference: The Cosmos Club",
-    "kind": "openverse",
-    "title": "The Cosmos Club",
-    "creator": "dbking",
-    "sourceUrl": "https://www.flickr.com/photos/65193799@N00/225747486",
-    "license": "CC BY",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    "alt": "Original Atlas visual specimen for Lantern Organs",
+    "kind": "generated",
+    "title": "Lantern Organs — original Atlas specimen",
+    "creator": "Atlas of Looks",
+    "sourceUrl": "",
+    "license": "Original",
+    "licenseUrl": ""
   },
   "last-of-us": {
     "file": "last-of-us.jpg",
@@ -2694,10 +2694,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "myth-buffering": {
-    "file": "myth-buffering.png",
-    "alt": "Abstract palette study for Myth Buffering",
+    "file": "myth-buffering.jpg",
+    "alt": "Original Atlas visual specimen for Myth Buffering",
     "kind": "generated",
-    "title": "Myth Buffering palette study",
+    "title": "Myth Buffering — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -3234,10 +3234,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "quiet-apocalypse-pastel": {
-    "file": "quiet-apocalypse-pastel.png",
-    "alt": "Abstract palette study for Quiet Apocalypse Pastel",
+    "file": "quiet-apocalypse-pastel.jpg",
+    "alt": "Original Atlas visual specimen for Quiet Apocalypse Pastel",
     "kind": "generated",
-    "title": "Quiet Apocalypse Pastel palette study",
+    "title": "Quiet Apocalypse Pastel — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -3425,13 +3425,13 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
   },
   "second-shadow": {
     "file": "second-shadow.jpg",
-    "alt": "Second Shadow visual reference: SWEET DREAMS ARE MADE OF THIS...",
-    "kind": "openverse",
-    "title": "SWEET DREAMS ARE MADE OF THIS...",
-    "creator": "summonedbyfells",
-    "sourceUrl": "https://www.flickr.com/photos/8521690@N02/8435546550",
-    "license": "CC BY",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    "alt": "Original Atlas visual specimen for Second Shadow",
+    "kind": "generated",
+    "title": "Second Shadow — original Atlas specimen",
+    "creator": "Atlas of Looks",
+    "sourceUrl": "",
+    "license": "Original",
+    "licenseUrl": ""
   },
   "sekiro": {
     "file": "sekiro.jpg",
@@ -3535,13 +3535,13 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
   },
   "snow-that-is-paper": {
     "file": "snow-that-is-paper.jpg",
-    "alt": "Snow-That-Is-Paper visual reference: 'Tulips should be behind bars like dangerous animals'",
-    "kind": "openverse",
-    "title": "'Tulips should be behind bars like dangerous animals'",
-    "creator": "~jar{}",
-    "sourceUrl": "https://www.flickr.com/photos/34615979@N00/6797806427",
-    "license": "CC BY",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    "alt": "Original Atlas visual specimen for Snow-That-Is-Paper",
+    "kind": "generated",
+    "title": "Snow-That-Is-Paper — original Atlas specimen",
+    "creator": "Atlas of Looks",
+    "sourceUrl": "",
+    "license": "Original",
+    "licenseUrl": ""
   },
   "socialist-realism": {
     "file": "socialist-realism.png",

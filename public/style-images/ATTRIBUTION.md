@@ -20,7 +20,6 @@ Images labeled Original were created for Atlas of Looks. Sourced images are list
 | art-deco | [Tamara de Lempicka Lilies](https://www.flickr.com/photos/49169223@N00/15988050336) | daryl_mitchell | [CC BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) |
 | art-nouveau | [Art Nouveau border](https://www.flickr.com/photos/22998854@N02/4691303132) | Theresa Thompson | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
 | ascii | [Koala Country BBS Login Screen.jpg](https://commons.wikimedia.org/wiki/File:Koala_Country_BBS_Login_Screen.jpg) | Warren Leadbeatter | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
-| ash-opera | [KoKoLoReS Ash Gift_001](https://www.flickr.com/photos/14514578@N08/19727067266) | cajsa.lilliehook | [CC BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) |
 | asterix | [Astérix, La Colección](https://www.flickr.com/photos/84743524@N02/7763398704) | xmoltarx | [CC BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) |
 | balinese-kamasan | [Battle of Gods, Demons, and Monkeys (Scene from the Ramayana in Wayang style), 20th Century, Indonesia, Bali, Kamasan, Art Institute of Chicago, Chicago, Illinois](https://www.flickr.com/photos/75683070@N00/28549064637) | Ken Lund | [CC BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) |
 | baroque | [Bacco](https://www.flickr.com/photos/146832554@N06/51643541293) | pom'. | [CC BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) |
@@ -43,7 +42,6 @@ Images labeled Original were created for Atlas of Looks. Sourced images are list
 | collage | [Digital Collage](https://www.flickr.com/photos/82518118@N00/391797210) | 'Playingwithbrushes' | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
 | color-field | [August2011 435](https://www.flickr.com/photos/25028863@N00/12891348553) | Lord Jim | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
 | constructivism | [Alexander Rodchenko Dobrolyot Poster Soviet USSR CCCP Early Aeronautics & Aviation](https://www.flickr.com/photos/102989169@N03/9905953346) | russian_constructivism | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
-| coral-brutalism | [Tarawa, Kiribati](https://www.flickr.com/photos/37472264@N04/50381716376) | europeanspaceagency | [CC BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) |
 | crt | [CRT screen. closeup.jpg](https://commons.wikimedia.org/wiki/File:CRT_screen._closeup.jpg) | Marcin Floryan | [Public domain](https://creativecommons.org/publicdomain/mark/1.0/) |
 | cubism | [Le Grand Café (Céret)](https://www.flickr.com/photos/72746018@N00/25667504834) | dalbera | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
 | cyanotype | [Ferns. Specimen Cyanotype (1840s) Anna](https://www.rawpixel.com/image/10041662/ferns-specimen-cyanotype-1840s-anna-atkins) | nationalgalleryofart | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
@@ -95,7 +93,6 @@ Images labeled Original were created for Atlas of Looks. Sourced images are list
 | hd-2d | [super_metroid-final_boss-wall_bbs-small-beam](https://www.flickr.com/photos/62128026@N00/2125072891) | ManuelSagra | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
 | high-renaissance | [Polymath — High Vocabulary Word of the Day](https://www.flickr.com/photos/169738192@N02/48027565901) | The Graphic Details | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
 | hollow-knight | [The Knight Of Whitefield](https://www.flickr.com/photos/13508369@N07/10485951225) | bikashdas | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
-| honey-geometry | [Deserted hive](https://www.flickr.com/photos/21649179@N00/3861233459) | fdecomite | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
 | horizon | [Game Ref: Horizon: Zero Dawn](https://www.flickr.com/photos/40153712@N05/34331109712) | Clinton Crumpler | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
 | hudson-river | [Hudson River School Landscape](https://www.flickr.com/photos/111803194@N04/52060646453) | billackerman1 | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
 | icon | [Rublev fresco, Vladimir cathedral, Russia](https://www.flickr.com/photos/27950702@N04/3644527546) | AndrewGould | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
@@ -116,7 +113,6 @@ Images labeled Original were created for Atlas of Looks. Sourced images are list
 | kubrick | [Toynbee Idea In Kubrick's 2001](https://www.flickr.com/photos/53301297@N00/7100586941) | pasa47 | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
 | kurosawa | [Seven Samurai (1954)](https://www.flickr.com/photos/89330362@N03/8136856791) | japanesefilmarchive | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
 | laika | [Visiting Laika Studios. They produce stop-motion animation movies including Coraline and Paranorman](https://www.flickr.com/photos/62730438@N08/9709163429) | RonWyden | [Public Domain](https://creativecommons.org/publicdomain/mark/1.0/) |
-| lantern-organs | [The Cosmos Club](https://www.flickr.com/photos/65193799@N00/225747486) | dbking | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
 | last-of-us | [Capturing The Last of Us: Motion Capture Pipeline](https://www.flickr.com/photos/46982319@N06/16532062708) | Official GDC | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
 | ledger-art | [Rachel TwoTeeth Pichardo, Little Shell Chippewa/ Cree/ Pend d' Orielle artist, creating ledger art.](https://www.flickr.com/photos/80223459@N05/53071175130) | YellowstoneNPS | [Public Domain](https://creativecommons.org/publicdomain/mark/1.0/) |
 | limbo | [Limbo, Limbo, LIM-BO!](https://www.flickr.com/photos/59773274@N00/2214213354) | robstephaustralia | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
@@ -178,12 +174,10 @@ Images labeled Original were created for Atlas of Looks. Sourced images are list
 | rubber-hose | [Felix 1919.jpg](https://commons.wikimedia.org/wiki/File:Felix_1919.jpg) | Pat Sullivan | [Public domain](https://creativecommons.org/publicdomain/mark/1.0/) |
 | salgado | [Portrait of the Artist — the photography of Sebastião Salgado](https://www.flickr.com/photos/44124348109@N01/13050013263) | jurvetson | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
 | screenprint | [Andy Warhol - Mick Jagger 1975](https://www.flickr.com/photos/28648431@N00/139615283) | oddsock | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
-| second-shadow | [SWEET DREAMS ARE MADE OF THIS...](https://www.flickr.com/photos/8521690@N02/8435546550) | summonedbyfells | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
 | sekiro | [Sekiro at E3 2018](https://www.flickr.com/photos/22974618@N00/42731882602) | Sergey Galyonkin | [CC BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) |
 | shin-hanga | [Fishing boats at dusk (1900-1920) by Ohara Koson (1877-1945). Original from the Rijks Museum. Digitally enhanced by rawpixel.](https://www.flickr.com/photos/153584064@N07/29861622488) | Free Public Domain Illustrations by rawpixel | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
 | shona-stone | [Shona sculpture, Kirstenbosch](https://www.flickr.com/photos/93242958@N00/5340103806) | Derek Keats | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
 | silent-hill | [[Otakon 2009] Pyrmid Head and Nurses from Silent Hill 2](https://www.flickr.com/photos/74226698@N00/3738499710) | Rob Speed | [CC BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) |
-| snow-that-is-paper | ['Tulips should be behind bars like dangerous animals'](https://www.flickr.com/photos/34615979@N00/6797806427) | ~jar{} | [CC BY](https://creativecommons.org/licenses/by/2.0/) |
 | spider-verse | [Spider-Man: Into the Spider-Verse Review!](https://www.flickr.com/photos/92461652@N07/45587429054) | AntMan3001 | [CC BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) |
 | splatoon | [My 10 E3 Predictions!](https://www.flickr.com/photos/92461652@N07/17996356794) | AntMan3001 | [CC BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) |
 | stained-glass | [Stained glass](https://www.flickr.com/photos/65749227@N00/3613697954) | robynejay | [CC BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) |

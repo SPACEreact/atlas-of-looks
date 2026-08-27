@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react"
-import { COLLECTIONS, FEATURED_HEROES, STYLE_BY_ID, STYLES } from "./data"
+import { COLLECTIONS, STYLE_BY_ID, STYLES } from "./data"
 import { DEFAULT_SUBJECT, fillSubject } from "./lib/mix"
 import { searchStyles } from "./lib/search"
 import { loadSaved, loadSubject, saveSaved, saveSubject } from "./lib/storage"
@@ -7,6 +7,8 @@ import type { Realm, Style, StyleImage } from "./types"
 import { REALMS, REGIONS } from "./types"
 
 type View = "atlas" | "saved"
+
+const CATALOG = new Map(STYLES.map((style, index) => [style.id, String(index + 1).padStart(3, "0")]))
 
 async function copyText(text: string) {
   if (navigator.clipboard?.writeText) return navigator.clipboard.writeText(text)
@@ -65,7 +67,6 @@ export default function App() {
 
   const open = openId ? STYLE_BY_ID.get(openId) : undefined
   const savedStyles = saved.map((id) => STYLE_BY_ID.get(id)).filter(Boolean) as Style[]
-  const showHero = view === "atlas" && !query && realm === "all" && !collection && region === "all"
   const hasFilter = Boolean(query || collection || realm !== "all" || region !== "all")
 
   function pingCopy(id: string) {
@@ -81,181 +82,137 @@ export default function App() {
     })
   }
 
-  function setSubjectAndSave(value: string) {
-    setSubject(value)
-    saveSubject(value)
-  }
-
-  function showAtlas() {
-    setView("atlas")
-  }
-
   function resetFilters() {
     setQuery("")
     setRealm("all")
     setRegion("all")
     setCollection(null)
-    showAtlas()
+    setView("atlas")
   }
 
   return (
     <div className="app">
-      <div className="grain" aria-hidden="true" />
-      <header className="top">
-        <div className="brand-row">
-          <button className="brand" onClick={resetFilters} aria-label="Open the full Atlas of Looks">
-            <h1>
-              Atlas of <em>Looks</em>
-            </h1>
-            <span className="count">{STYLES.length} visual languages</span>
-          </button>
-          <nav className="nav-views" aria-label="Atlas views">
-            <button className={view === "atlas" ? "on" : ""} onClick={showAtlas}>
-              Atlas
+      <header className="mast">
+        <div className="mast-inner">
+          <div className="mast-row">
+            <button className="wordmark" onClick={resetFilters} aria-label="Atlas of Looks, full catalogue">
+              Atlas of Looks
+              <span>A catalogue of visual languages</span>
             </button>
-            <button className={view === "saved" ? "on" : ""} onClick={() => setView("saved")}>
-              Saved <span>{saved.length}</span>
-            </button>
-          </nav>
-        </div>
+            <div className="mast-meta">
+              <span>
+                <em>{STYLES.length}</em> plates
+              </span>
+              <button className={view === "atlas" ? "on" : ""} onClick={() => setView("atlas")}>
+                Catalogue
+              </button>
+              <button className={view === "saved" ? "on" : ""} onClick={() => setView("saved")}>
+                Kept {saved.length ? saved.length : ""}
+              </button>
+            </div>
+          </div>
 
-        <div className="search-wrap">
-          <span className="slash" aria-hidden="true">/</span>
-          <input
-            ref={searchRef}
-            value={query}
-            onChange={(event) => {
-              setQuery(event.target.value)
-              setCollection(null)
-              showAtlas()
-            }}
-            aria-label="Search all styles"
-            placeholder="Search a style, place, medium, studio, game, or mood…"
-          />
-          {query && (
-            <button className="search-clear" onClick={() => setQuery("")} aria-label="Clear search">
-              Clear
-            </button>
-          )}
-        </div>
-
-        <div className="realms" aria-label="Style categories">
-          {REALMS.map((item) => (
-            <button
-              key={item.id}
-              className={realm === item.id && !collection ? "on" : ""}
-              aria-pressed={realm === item.id && !collection}
-              onClick={() => {
-                setRealm(item.id)
-                if (item.id !== "cultures") setRegion("all")
+          <div className="search">
+            <label htmlFor="atlas-search">Find</label>
+            <input
+              id="atlas-search"
+              ref={searchRef}
+              value={query}
+              onChange={(event) => {
+                setQuery(event.target.value)
                 setCollection(null)
-                showAtlas()
+                setView("atlas")
               }}
-              title={item.hint}
-            >
-              {item.label}
-            </button>
-          ))}
-        </div>
+              placeholder="a style, culture, film, game, medium, or mood"
+            />
+            {query && (
+              <button className="search-clear" onClick={() => setQuery("")}>
+                Clear
+              </button>
+            )}
+          </div>
 
-        {realm === "cultures" && (
-          <div className="regions" aria-label="Cultural regions">
-            <button className={region === "all" ? "on" : ""} onClick={() => setRegion("all")}>
-              All regions
-            </button>
-            {REGIONS.map((item) => (
-              <button key={item.id} className={region === item.id ? "on" : ""} onClick={() => setRegion(item.id)}>
+          <nav className="cats" aria-label="Departments">
+            {REALMS.map((item) => (
+              <button
+                key={item.id}
+                className={realm === item.id && !collection ? "on" : ""}
+                onClick={() => {
+                  setRealm(item.id)
+                  if (item.id !== "cultures") setRegion("all")
+                  setCollection(null)
+                  setView("atlas")
+                }}
+              >
                 {item.label}
               </button>
             ))}
-          </div>
-        )}
+          </nav>
 
-        <div className="subject-row">
-          <label htmlFor="atlas-subject">Prompt subject</label>
-          <input
-            id="atlas-subject"
-            value={subject}
-            onChange={(event) => setSubjectAndSave(event.target.value)}
-            placeholder={DEFAULT_SUBJECT}
-          />
-          <span>used in every copy-ready prompt</span>
+          {realm === "cultures" && (
+            <div className="regions" aria-label="Regions">
+              <button className={region === "all" ? "on" : ""} onClick={() => setRegion("all")}>
+                All regions
+              </button>
+              {REGIONS.map((item) => (
+                <button key={item.id} className={region === item.id ? "on" : ""} onClick={() => setRegion(item.id)}>
+                  {item.label}
+                </button>
+              ))}
+            </div>
+          )}
+
+          <div className="subject">
+            <label htmlFor="atlas-subject">Subject</label>
+            <input
+              id="atlas-subject"
+              value={subject}
+              onChange={(event) => {
+                setSubject(event.target.value)
+                saveSubject(event.target.value)
+              }}
+              placeholder={DEFAULT_SUBJECT}
+            />
+          </div>
+
+          {view === "atlas" && !query && (
+            <div className="paths" aria-label="Curated paths">
+              {COLLECTIONS.map((item) => (
+                <button
+                  key={item.id}
+                  className={collection === item.id ? "on" : ""}
+                  onClick={() => {
+                    setCollection(collection === item.id ? null : item.id)
+                    setQuery("")
+                    setView("atlas")
+                  }}
+                >
+                  {item.name}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
       </header>
 
       <main className="main">
         {view === "atlas" ? (
           <>
-            {showHero && (
-              <section className="hero">
-                <div className="hero-copy">
-                  <p className="section-label">A visual field guide</p>
-                  <h2>
-                    See how every style <em>thinks.</em>
-                  </h2>
-                  <p className="lede">
-                    Four hundred thirty-three visual languages across cultures, art history, film, games, print, photography, the internet, and imagined worlds. Every entry pairs an image with its visual grammar and a prompt you can use.
-                  </p>
-                  <div className="hero-stat">
-                    <strong>433</strong>
-                    <span>images · descriptions · palettes · prompts</span>
-                  </div>
-                </div>
-                <div className="mosaic" aria-label="Featured styles">
-                  {FEATURED_HEROES.slice(0, 4).map((style, index) => (
-                    <button key={style.id} onClick={() => setOpenId(style.id)}>
-                      <img
-                        src={style.image.src}
-                        alt={style.image.alt}
-                        width="720"
-                        height="480"
-                        decoding="async"
-                        fetchPriority={index === 0 ? "high" : "auto"}
-                      />
-                      <span>{style.name}</span>
-                    </button>
-                  ))}
-                </div>
-              </section>
-            )}
-
-            {showHero && (
-              <section className="collection-section" aria-labelledby="collections-title">
-                <p className="section-label" id="collections-title">Curated paths</p>
-                <div className="collections">
-                  {COLLECTIONS.map((item) => (
-                    <button
-                      key={item.id}
-                      className={collection === item.id ? "on" : ""}
-                      onClick={() => {
-                        setCollection(collection === item.id ? null : item.id)
-                        setQuery("")
-                      }}
-                    >
-                      <strong>{item.name}</strong>
-                      <small>{item.hint}</small>
-                    </button>
-                  ))}
-                </div>
-              </section>
-            )}
-
-            <div className="meta-line">
+            <div className="lede-line">
               <div>
-                <strong>{filtered.length}</strong> look{filtered.length === 1 ? "" : "s"}
-                {collection ? ` · ${COLLECTIONS.find((item) => item.id === collection)?.name}` : ""}
+                <strong>{filtered.length}</strong>
+                {collection ? ` · ${COLLECTIONS.find((item) => item.id === collection)?.name}` : " plates"}
                 {query ? ` · “${query}”` : ""}
               </div>
-              <div className="meta-actions">
+              <div className="actions">
                 {hasFilter && <button onClick={resetFilters}>Reset</button>}
                 <button
-                  className="btn"
                   onClick={() => {
                     const style = filtered[Math.floor(Math.random() * filtered.length)]
                     if (style) setOpenId(style.id)
                   }}
                 >
-                  Random look
+                  At random
                 </button>
               </div>
             </div>
@@ -263,8 +220,8 @@ export default function App() {
             {filtered.length === 0 ? (
               <div className="empty">
                 <h3>Nothing filed under that.</h3>
-                <p>Try a place, medium, artist, studio, title, color, or mood.</p>
-                <button className="btn gold" onClick={resetFilters}>Show the full atlas</button>
+                <p>Try a place, medium, studio, title, or mood.</p>
+                <button onClick={resetFilters}>Return to the catalogue</button>
               </div>
             ) : (
               <div className="grid">
@@ -280,17 +237,20 @@ export default function App() {
             )}
           </>
         ) : (
-          <section className="saved-view">
-            <div className="page-heading">
-              <p className="section-label">Your shelf</p>
-              <h2>Saved looks</h2>
-              <p>Kept on this device for quick return.</p>
+          <>
+            <div className="lede-line">
+              <div>
+                <strong>{savedStyles.length}</strong> kept on this device
+              </div>
+              <div className="actions">
+                <button onClick={() => setView("atlas")}>Catalogue</button>
+              </div>
             </div>
             {savedStyles.length === 0 ? (
               <div className="empty">
-                <h3>Your shelf is empty.</h3>
-                <p>Open any style and save it here.</p>
-                <button className="btn gold" onClick={showAtlas}>Browse the atlas</button>
+                <h3>Nothing kept.</h3>
+                <p>Open a plate and keep it.</p>
+                <button onClick={() => setView("atlas")}>Return to the catalogue</button>
               </div>
             ) : (
               <div className="grid">
@@ -299,13 +259,13 @@ export default function App() {
                 ))}
               </div>
             )}
-          </section>
+          </>
         )}
       </main>
 
       <footer className="foot">
         <span>Atlas of Looks</span>
-        <span>433 visual languages · press / to search</span>
+        <span>Press / to search</span>
       </footer>
 
       {open && (
@@ -326,43 +286,46 @@ export default function App() {
 
 function Card({ style, saved, onOpen }: { style: Style; saved: boolean; onOpen: () => void }) {
   return (
-    <button className={`card ${saved ? "saved" : ""}`} onClick={onOpen} aria-label={`Open ${style.name}`}>
+    <button className="card" onClick={onOpen} aria-label={`Open ${style.name}`}>
       <span className="card-image">
         <img
           src={style.image.src}
-          alt={style.image.alt}
+          alt=""
           width="720"
           height="480"
           loading="lazy"
           decoding="async"
         />
-        <span className="card-index">{style.realms[0]}</span>
-        {saved && <span className="saved-mark" aria-label="Saved">Saved</span>}
+        {saved && <span className="kept">Kept</span>}
       </span>
-      <span className="card-body">
-        <span className="card-title-row">
-          <h3>{style.name}</h3>
-          <span aria-hidden="true">↗</span>
-        </span>
-        <span className="origin">{style.origin} · {style.era}</span>
-        <span className="summary">{style.summary}</span>
-        <span className="tags">
-          {style.tags.slice(0, 3).map((tag) => <i key={tag}>{tag}</i>)}
-        </span>
+      <span className="no">{CATALOG.get(style.id)}</span>
+      <span className="name">{style.name}</span>
+      <span className="meta">
+        {style.origin} · {style.era}
       </span>
     </button>
   )
 }
 
 function ImageCredit({ image }: { image: StyleImage }) {
-  if (image.kind === "generated") return <p className="image-credit">Original Atlas image</p>
+  if (image.kind === "generated") return <p className="image-credit">Original plate</p>
   return (
     <p className="image-credit">
-      Image: <a href={image.sourceUrl} target="_blank" rel="noreferrer">{image.title}</a>
+      Image:{" "}
+      <a href={image.sourceUrl} target="_blank" rel="noreferrer">
+        {image.title}
+      </a>
       {image.creator ? ` · ${image.creator}` : ""}
       {image.licenseUrl ? (
-        <> · <a href={image.licenseUrl} target="_blank" rel="noreferrer">{image.license}</a></>
-      ) : ` · ${image.license}`}
+        <>
+          {" · "}
+          <a href={image.licenseUrl} target="_blank" rel="noreferrer">
+            {image.license}
+          </a>
+        </>
+      ) : (
+        ` · ${image.license}`
+      )}
     </p>
   )
 }
@@ -396,79 +359,81 @@ function Detail({
         aria-labelledby="style-title"
         onClick={(event) => event.stopPropagation()}
       >
-        <button className="sheet-close" onClick={onClose} aria-label="Close style details">Close</button>
+        <button className="sheet-close" onClick={onClose}>
+          Close
+        </button>
         <div className="detail-image">
           <img src={style.image.src} alt={style.image.alt} width="720" height="480" decoding="async" />
         </div>
-        <ImageCredit image={style.image} />
-        <p className="section-label">{style.realms.join(" · ")}</p>
-        <h2 id="style-title">{style.name}</h2>
-        <p className="sub">
-          {style.origin} · {style.era}
-          {style.aka.length ? ` · also ${style.aka.join(", ")}` : ""}
-        </p>
-        <div className="palette" aria-label={`${style.name} color palette`}>
-          {style.palette.map((color) => <i key={color} style={{ background: color }} title={color} />)}
-        </div>
-        <div className="actions">
-          <button
-            className={`btn gold ${copied === "prompt" ? "ok" : ""}`}
-            onClick={() => copyText(fullPrompt).then(() => pingCopy("prompt"))}
-          >
-            {copied === "prompt" ? "Copied prompt" : "Copy prompt"}
-          </button>
-          <button
-            className={`btn ${copied === "compact" ? "ok" : ""}`}
-            onClick={() => copyText(style.compact).then(() => pingCopy("compact"))}
-          >
-            {copied === "compact" ? "Copied" : "Copy compact"}
-          </button>
-          <button className={`btn ${saved ? "gold" : ""}`} onClick={onSave}>
-            {saved ? "Saved" : "Save look"}
-          </button>
-        </div>
-        <div className="detail-grid">
+        <div className="plate">
+          <p className="no">
+            Plate {CATALOG.get(style.id)} · {style.realms.join(" · ")}
+          </p>
+          <h2 id="style-title">{style.name}</h2>
+          <p className="sub">
+            {style.origin} · {style.era}
+            {style.aka.length ? ` · ${style.aka.join(", ")}` : ""}
+          </p>
+          <ImageCredit image={style.image} />
+          <div className="palette" aria-label={`${style.name} palette`}>
+            {style.palette.map((color) => (
+              <i key={color} style={{ background: color }} title={color} />
+            ))}
+          </div>
+          <div className="acts">
+            <button className={copied === "prompt" ? "ok" : ""} onClick={() => copyText(fullPrompt).then(() => pingCopy("prompt"))}>
+              {copied === "prompt" ? "Copied" : "Copy prompt"}
+            </button>
+            <button className={copied === "compact" ? "ok" : ""} onClick={() => copyText(style.compact).then(() => pingCopy("compact"))}>
+              {copied === "compact" ? "Copied" : "Compact tags"}
+            </button>
+            <button onClick={onSave}>{saved ? "Kept" : "Keep"}</button>
+          </div>
           <div className="block">
             <h4>What it is</h4>
             <p>{style.summary}</p>
           </div>
           <div className="block">
-            <h4>Visual DNA</h4>
+            <h4>Visual grammar</h4>
             <p>{style.look}</p>
           </div>
-        </div>
-        <div className="block">
-          <h4>Prompt</h4>
-          <pre className="prompt">{fullPrompt}</pre>
-        </div>
-        <div className="detail-grid">
           <div className="block">
-            <h4>Best for</h4>
-            <p>{style.bestFor}</p>
+            <h4>Prompt</h4>
+            <pre className="prompt">{fullPrompt}</pre>
           </div>
-          <div className="block">
-            <h4>Avoid</h4>
-            <p>{style.avoid}</p>
-          </div>
-        </div>
-        {style.examples.length > 0 && (
-          <div className="block">
-            <h4>Touchstones</h4>
-            <p>{style.examples.join(" · ")}</p>
-          </div>
-        )}
-        {style.related.length > 0 && (
-          <div className="block">
-            <h4>Nearby in the atlas</h4>
-            <div className="related">
-              {style.related.map((id) => {
-                const related = STYLE_BY_ID.get(id)
-                if (!related) return null
-                return <button key={id} onClick={() => onOpen(id)}>{related.name}</button>
-              })}
+          <div className="cols">
+            <div className="block">
+              <h4>Best for</h4>
+              <p>{style.bestFor}</p>
+            </div>
+            <div className="block">
+              <h4>Avoid</h4>
+              <p>{style.avoid}</p>
             </div>
           </div>
-        )}
+          {style.examples.length > 0 && (
+            <div className="block">
+              <h4>Touchstones</h4>
+              <p>{style.examples.join(" · ")}</p>
+            </div>
+          )}
+          {style.related.length > 0 && (
+            <div className="block">
+              <h4>Nearby</h4>
+              <div className="related">
+                {style.related.map((id) => {
+                  const related = STYLE_BY_ID.get(id)
+                  if (!related) return null
+                  return (
+                    <button key={id} onClick={() => onOpen(id)}>
+                      {related.name}
+                    </button>
+                  )
+                })}
+              </div>
+            </div>
+          )}
+        </div>
       </aside>
     </div>
   )
