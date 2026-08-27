@@ -214,10 +214,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "araki": {
-    "file": "araki.png",
-    "alt": "Abstract palette study for Nobuyoshi Araki",
+    "file": "araki.jpg",
+    "alt": "Original Atlas visual specimen for Nobuyoshi Araki",
     "kind": "generated",
-    "title": "Nobuyoshi Araki palette study",
+    "title": "Nobuyoshi Araki — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -294,10 +294,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
   },
   "aztec-codex": {
-    "file": "aztec-codex.png",
-    "alt": "Abstract palette study for Aztec Codex",
+    "file": "aztec-codex.jpg",
+    "alt": "Original Atlas visual specimen for Aztec Codex",
     "kind": "generated",
-    "title": "Aztec Codex palette study",
+    "title": "Aztec Codex — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -394,10 +394,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "benin-bronze": {
-    "file": "benin-bronze.png",
-    "alt": "Abstract palette study for Benin Bronze",
+    "file": "benin-bronze.jpg",
+    "alt": "Original Atlas visual specimen for Benin Bronze",
     "kind": "generated",
-    "title": "Benin Bronze palette study",
+    "title": "Benin Bronze — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -564,10 +564,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "calarts-2010s": {
-    "file": "calarts-2010s.png",
-    "alt": "Abstract palette study for 2010s CalArts TV",
+    "file": "calarts-2010s.jpg",
+    "alt": "Original Atlas visual specimen for 2010s CalArts TV",
     "kind": "generated",
-    "title": "2010s CalArts TV palette study",
+    "title": "2010s CalArts TV — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -654,10 +654,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": ""
   },
   "chola-bronze": {
-    "file": "chola-bronze.png",
-    "alt": "Abstract palette study for Chola Bronze Aesthetic",
+    "file": "chola-bronze.jpg",
+    "alt": "Original Atlas visual specimen for Chola Bronze Aesthetic",
     "kind": "generated",
-    "title": "Chola Bronze Aesthetic palette study",
+    "title": "Chola Bronze Aesthetic — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
@@ -724,10 +724,10 @@ export const STYLE_IMAGES: Record<string, StyleImageAsset> = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
   },
   "concept-art": {
-    "file": "concept-art.png",
-    "alt": "Abstract palette study for AAA Concept Art",
+    "file": "concept-art.jpg",
+    "alt": "Original Atlas visual specimen for AAA Concept Art",
     "kind": "generated",
-    "title": "AAA Concept Art palette study",
+    "title": "AAA Concept Art — original Atlas specimen",
     "creator": "Atlas of Looks",
     "sourceUrl": "",
     "license": "Original",
