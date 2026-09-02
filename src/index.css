@@ -35,7 +35,10 @@ img { display: block; max-width: 100%; }
 .mode-switch { display: flex; padding: 4px; border: 1px solid var(--line); background: #101210; border-radius: 999px; }
 .mode-switch button { border: 0; background: none; padding: 9px 18px; border-radius: 999px; cursor: pointer; text-transform: uppercase; font: 500 10px Source Sans 3, sans-serif; letter-spacing: .12em; color: var(--muted); }
 .mode-switch button.active { background: #eadfce; color: #160c0d; }
-.topbar__note { justify-self: end; text-transform: uppercase; font: 400 9px Source Sans 3, sans-serif; letter-spacing: .16em; color: #82766a; }\n.knowledge-link { justify-self: end; color: var(--muted); font: 500 9px Source Sans 3, sans-serif; letter-spacing: .12em; text-decoration: none; text-transform: uppercase; }\n.knowledge-link span { color: var(--acid); margin-left: 5px; }\n.knowledge-link:hover { color: var(--ink); }
+.topbar__note { justify-self: end; text-transform: uppercase; font: 400 9px Source Sans 3, sans-serif; letter-spacing: .16em; color: #82766a; }
+.knowledge-link { justify-self: end; color: var(--muted); font: 500 9px Source Sans 3, sans-serif; letter-spacing: .12em; text-decoration: none; text-transform: uppercase; }
+.knowledge-link span { color: var(--acid); margin-left: 5px; }
+.knowledge-link:hover { color: var(--ink); }
 
 .hero { min-height: 720px; padding: 118px 6vw 96px; border-bottom: 1px solid var(--line); position: relative; overflow: hidden; }
 .hero::before { content: ""; position: absolute; right: -6vw; top: 50px; width: 42vw; aspect-ratio: 1; border: 1px solid #272b27; border-radius: 50%; box-shadow: inset 0 0 0 10vw #0f110f, inset 0 0 0 calc(10vw + 1px) #272b27; opacity: .7; }
@@ -238,4 +241,5 @@ footer button { border: 0; background: none; color: #858b85; cursor: pointer; fo
   .atlas-grid { grid-template-columns: 1fr; }
   .reveal-examples { grid-template-columns: 1fr; }
 }
-\n.primary, .domain-train { display: inline-block; text-decoration: none; }\n
+
+.primary, .domain-train { display: inline-block; text-decoration: none; }
