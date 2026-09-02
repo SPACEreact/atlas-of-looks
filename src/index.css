@@ -192,7 +192,7 @@ footer button { border: 0; background: none; color: #858b85; cursor: pointer; fo
 
 @media (max-width: 1000px) {
   .topbar { grid-template-columns: 1fr auto; padding: 0 18px; }
-  .topbar__note, .knowledge-link { display: none; }
+  .topbar__note { display: none; }
   .hero { padding-left: 5vw; min-height: 630px; }
   .hero::before { opacity: .35; width: 60vw; }
   .domain-layout, .method-section { grid-template-columns: 1fr; }
@@ -204,7 +204,7 @@ footer button { border: 0; background: none; color: #858b85; cursor: pointer; fo
 
 @media (max-width: 720px) {
   .topbar { height: auto; min-height: 62px; grid-template-columns: 1fr; gap: 10px; padding: 11px 14px; }
-  .brand { justify-self: center; }
+  .brand { justify-self: center; }\n  .knowledge-link { justify-self: center; padding: 5px 0; }
   .mode-switch { justify-self: stretch; display: grid; grid-template-columns: repeat(2, 1fr); }
   .mode-switch button { padding: 8px 10px; }
   .hero { min-height: 0; padding: 72px 20px 64px; }
