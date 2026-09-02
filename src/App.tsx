@@ -51,7 +51,7 @@ const DOMAINS: Domain[] = [
       "Salience, figure-ground, hierarchy, pattern, memory and the mechanics that decide what survives a glance.",
     variables: ["attention", "contrast", "grouping", "hierarchy", "memory"],
     paths: ["Gestalt", "eye path", "visual weight", "ambiguity", "cognitive load"],
-    accent: "#b7ff4a",
+    accent: "#d38b3e",
   },
   {
     id: "colour",
@@ -63,7 +63,7 @@ const DOMAINS: Domain[] = [
       "From prehistoric ochres to HDR: physics, pigment, harmony, culture, psychology, grading and emotional colour design.",
     variables: ["hue", "value", "chroma", "temperature", "proportion"],
     paths: ["cave pigment", "ritual", "Impressionism", "Technicolor", "digital grading"],
-    accent: "#ff6b57",
+    accent: "#c2583b",
   },
   {
     id: "composition",
@@ -75,7 +75,7 @@ const DOMAINS: Domain[] = [
       "Balance, negative space, geometry, visual vectors, depth layers, tension and the orchestration of attention.",
     variables: ["balance", "scale", "density", "direction", "negative space"],
     paths: ["ritual order", "Renaissance space", "Japanese asymmetry", "modernism", "cinema"],
-    accent: "#78a7ff",
+    accent: "#65759b",
   },
   {
     id: "blocking",
@@ -87,7 +87,7 @@ const DOMAINS: Domain[] = [
       "Proximity, levels, orientation, entrances, isolation and movement as emotional relationship design.",
     variables: ["distance", "level", "orientation", "movement", "clusters"],
     paths: ["ritual", "theatre", "silent cinema", "Kurosawa", "modern staging"],
-    accent: "#dd8cff",
+    accent: "#9a5d83",
   },
   {
     id: "light",
@@ -99,7 +99,7 @@ const DOMAINS: Domain[] = [
       "Direction, quality, falloff, ratio, motivation, colour and how illumination turns form into psychology.",
     variables: ["direction", "quality", "ratio", "falloff", "colour"],
     paths: ["sacred glow", "chiaroscuro", "photography", "studio cinema", "naturalism"],
-    accent: "#ffd66b",
+    accent: "#d99a50",
   },
   {
     id: "camera",
@@ -111,7 +111,7 @@ const DOMAINS: Domain[] = [
       "Height, distance, lens, perspective, depth of field and movement taught as perception rather than specification trivia.",
     variables: ["height", "distance", "lens", "angle", "movement"],
     paths: ["camera obscura", "photography", "classical cinema", "wide-lens intimacy", "virtual camera"],
-    accent: "#70e1d2",
+    accent: "#8f5542",
   },
   {
     id: "space",
@@ -123,7 +123,7 @@ const DOMAINS: Domain[] = [
       "Perspective, scale, occlusion, compression, atmospheric depth and the expressive power of deliberate flatness.",
     variables: ["perspective", "occlusion", "scale", "focus", "compression"],
     paths: ["Egyptian registers", "reverse perspective", "Renaissance", "deep focus", "games"],
-    accent: "#75c8ff",
+    accent: "#65759b",
   },
   {
     id: "movement",
@@ -135,7 +135,7 @@ const DOMAINS: Domain[] = [
       "Speed, anticipation, inertia, trajectory, stillness and the emotional relationship between moving subject and moving camera.",
     variables: ["speed", "trajectory", "inertia", "stillness", "camera relation"],
     paths: ["gesture", "chronophotography", "animation", "action cinema", "interactive motion"],
-    accent: "#ff8eb4",
+    accent: "#b86378",
   },
   {
     id: "editing",
@@ -147,7 +147,7 @@ const DOMAINS: Domain[] = [
       "Duration, juxtaposition, continuity, montage, reaction, withholding and the emotional mathematics of time.",
     variables: ["duration", "order", "collision", "ellipsis", "reaction"],
     paths: ["tableaux", "continuity", "Soviet montage", "modern discontinuity", "networked rhythm"],
-    accent: "#ffa76f",
+    accent: "#c2583b",
   },
   {
     id: "design",
@@ -159,7 +159,7 @@ const DOMAINS: Domain[] = [
       "Production design, shape language, texture, costume, architecture, objects, class, wear and material storytelling.",
     variables: ["shape", "material", "texture", "wear", "scale"],
     paths: ["artifact", "architecture", "costume", "industrial design", "worldbuilding"],
-    accent: "#c4a46a",
+    accent: "#d38b3e",
   },
   {
     id: "symbol",
@@ -171,7 +171,7 @@ const DOMAINS: Domain[] = [
       "Iconography, motif, metaphor, ritual, cultural convention and the danger of pretending every visual association is universal.",
     variables: ["motif", "ritual", "context", "repetition", "transformation"],
     paths: ["prehistory", "sacred image", "allegory", "advertising", "internet symbol"],
-    accent: "#d9ff7f",
+    accent: "#d8a35a",
   },
   {
     id: "rhythm",
@@ -183,7 +183,7 @@ const DOMAINS: Domain[] = [
       "Pattern, interruption and contrast across shape, colour, light, movement, composition and time.",
     variables: ["repeat", "interval", "contrast", "accent", "interruption"],
     paths: ["ornament", "music-image analogy", "graphic design", "montage", "motion systems"],
-    accent: "#a29bff",
+    accent: "#6d3157",
   },
 ];
 
@@ -360,13 +360,13 @@ export default function App() {
           <span>ATLAS / OF / LOOKS</span>
         </button>
         <nav className="mode-switch" aria-label="Primary navigation">
-          {(["learn", "train", "atlas"] as Mode[]).map((item) => (
+          {(["learn", "atlas"] as Mode[]).map((item) => (
             <button key={item} className={mode === item ? "active" : ""} onClick={() => setMode(item)}>
               {item}
             </button>
           ))}
         </nav>
-        <div className="topbar__note">visual literacy laboratory</div>
+        <a className="knowledge-link" href="https://spacereact.github.io/knowledge/">Knowledge Atlas <span aria-hidden="true">↗</span></a>
       </header>
 
       {mode === "learn" && (
@@ -379,7 +379,7 @@ export default function App() {
               cinematography and design organised around what you can actually <strong>see and control</strong>.
             </p>
             <div className="hero__actions">
-              <button className="primary" onClick={() => setMode("train")}>Start a visual drill</button>
+              <a className="primary" href="https://spacereact.github.io/knowledge/visual-literacy.html">Open Visual Literacy</a>
               <button className="secondary" onClick={() => setMode("atlas")}>Open the full atlas · {STYLES.length}</button>
             </div>
             <div className="hero__meter">
@@ -430,7 +430,7 @@ export default function App() {
                 <div className="domain-gallery">
                   {domainStyles.slice(0, 3).map((style) => <VisualCard key={style.id} style={style} compact />)}
                 </div>
-                <button className="domain-train" onClick={() => setMode("train")}>Train {domain.title.toLowerCase()} perception →</button>
+                <a className="domain-train" href="https://spacereact.github.io/knowledge/visual-literacy.html">Read the static visual atlas →</a>
               </div>
             </div>
           </section>
@@ -539,11 +539,6 @@ export default function App() {
         </main>
       )}
 
-      <footer>
-        <div>ATLAS OF LOOKS</div>
-        <p>Build visual memory until principles become instinct.</p>
-        <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>↑ TOP</button>
-      </footer>
     </div>
   );
 }
