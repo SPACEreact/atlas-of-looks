@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { STYLES } from "./data";
 import type { Style } from "./types";
+import { LookDialog } from "./LookDialog";
 
 type Mode = "learn" | "train" | "atlas";
 type DomainId =
@@ -302,16 +303,16 @@ function sampleForDomain(domain: DomainId): Style[] {
   return scored.length ? scored : STYLES.slice(0, 6);
 }
 
-function VisualCard({ style, compact = false }: { style: Style; compact?: boolean }) {
+function VisualCard({ style, compact = false, onOpen }: { style: Style; compact?: boolean; onOpen: (style: Style) => void }) {
   return (
     <article className={`visual-card ${compact ? "visual-card--compact" : ""}`}>
-      <div className="visual-card__image-wrap">
+      <button type="button" className="visual-card__image-wrap" onClick={() => onOpen(style)} aria-label={`Open ${style.name} prompt and history`}>
         <img className="visual-card__image" src={style.image.src} alt={style.image.alt || style.name} loading="lazy" />
         <span className="visual-card__realm">{realmLabel[style.realms[0]] || style.realms[0]}</span>
-      </div>
+      </button>
       <div className="visual-card__body">
         <div className="visual-card__meta">{style.era} · {style.origin}</div>
-        <h3>{style.name}</h3>
+        <h3><button type="button" className="visual-card__title" onClick={() => onOpen(style)}>{style.name}</button></h3>
         {!compact && <p>{style.summary}</p>}
         <div className="palette" aria-label={`${style.name} palette`}>
           {style.palette.slice(0, 5).map((colour) => (
@@ -324,6 +325,7 @@ function VisualCard({ style, compact = false }: { style: Style; compact?: boolea
 }
 
 export default function App() {
+  const [selectedStyle, setSelectedStyle] = useState<Style | null>(null);
   const [mode, setMode] = useState<Mode>("learn");
   const [activeDomain, setActiveDomain] = useState<DomainId>("colour");
   const [query, setQuery] = useState("");
@@ -428,7 +430,7 @@ export default function App() {
                   </div>
                 </div>
                 <div className="domain-gallery">
-                  {domainStyles.slice(0, 3).map((style) => <VisualCard key={style.id} style={style} compact />)}
+                  {domainStyles.slice(0, 3).map((style) => <VisualCard key={style.id} style={style} onOpen={setSelectedStyle} compact />)}
                 </div>
                 <a className="domain-train" href="https://spacereact.github.io/knowledge/visual-literacy.html">Read the static visual atlas →</a>
               </div>
@@ -504,7 +506,7 @@ export default function App() {
               <h2>{drill.principle}</h2>
               <p>Now name the mechanism only after experiencing the difference. The next step is recognizing it in real work.</p>
               <div className="reveal-examples">
-                {sampleForDomain(drill.domain).slice(0, 4).map((style) => <VisualCard key={style.id} style={style} compact />)}
+                {sampleForDomain(drill.domain).slice(0, 4).map((style) => <VisualCard key={style.id} style={style} onOpen={setSelectedStyle} compact />)}
               </div>
             </section>
           )}
@@ -534,11 +536,12 @@ export default function App() {
             ))}
           </div>
           <section className="atlas-grid">
-            {filteredStyles.map((style) => <VisualCard key={style.id} style={style} />)}
+            {filteredStyles.map((style) => <VisualCard key={style.id} style={style} onOpen={setSelectedStyle} />)}
           </section>
         </main>
       )}
 
+      {selectedStyle && <LookDialog key={selectedStyle.id} style={selectedStyle} onClose={() => setSelectedStyle(null)} />}
     </div>
   );
 }
