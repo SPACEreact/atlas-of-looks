@@ -204,7 +204,8 @@ footer button { border: 0; background: none; color: #858b85; cursor: pointer; fo
 
 @media (max-width: 720px) {
   .topbar { height: auto; min-height: 62px; grid-template-columns: 1fr; gap: 10px; padding: 11px 14px; }
-  .brand { justify-self: center; }\n  .knowledge-link { justify-self: center; padding: 5px 0; }
+  .brand { justify-self: center; }
+  .knowledge-link { justify-self: center; padding: 5px 0; }
   .mode-switch { justify-self: stretch; display: grid; grid-template-columns: repeat(2, 1fr); }
   .mode-switch button { padding: 8px 10px; }
   .hero { min-height: 0; padding: 72px 20px 64px; }
@@ -243,3 +244,22 @@ footer button { border: 0; background: none; color: #858b85; cursor: pointer; fo
 }
 
 .primary, .domain-train { display: inline-block; text-decoration: none; }
+
+/* Look detail window shares the existing atlas palette. */
+button.visual-card__image-wrap { display: block; width: 100%; padding: 0; border: 0; cursor: pointer; }
+.visual-card__title { background: none; border: 0; padding: 0; text-align: left; font: inherit; cursor: pointer; }
+.look-dialog { width: min(850px, calc(100% - 24px)); max-height: 90dvh; padding: 0; border: 1px solid var(--line); color: var(--ink); background: var(--panel); overflow-y: auto; overscroll-behavior: contain; }
+.look-dialog::backdrop { background: rgb(0 0 0 / 78%); }
+.look-dialog__header { position: sticky; top: 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 18px 24px; background: var(--panel); border-bottom: 1px solid var(--line); z-index: 1; }
+.look-dialog h2 { margin: 0; font: 500 clamp(28px, 5vw, 42px)/1.1 'Cormorant Garamond', Georgia, serif; overflow-wrap: anywhere; }
+.look-dialog h3 { margin: 0; font-size: 20px; }
+.look-dialog button { flex-shrink: 0; background: var(--panel2); border: 1px solid var(--acid); padding: 10px 14px; min-height: 44px; cursor: pointer; font-size: 14px; }
+.look-dialog__content { padding: 24px; }
+.look-dialog__image { width: 100%; max-height: 320px; object-fit: contain; background: var(--bg); }
+.look-dialog p { font-size: 16px; line-height: 1.65; overflow-wrap: anywhere; }
+.look-dialog__meta, .look-dialog__credit { color: var(--muted); }
+.look-dialog section { border-top: 1px solid var(--line); margin-top: 24px; padding-top: 24px; }
+.look-dialog__section-heading { display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.look-dialog__prompt { white-space: pre-wrap; overflow-wrap: anywhere; font: inherit; font-size: 16px; line-height: 1.65; background: var(--bg); padding: 18px; border: 1px solid var(--line); user-select: text; }
+.look-dialog a { color: var(--acid); }
+@media (max-width: 600px) { .look-dialog__header, .look-dialog__content { padding: 16px; } }
